@@ -1,0 +1,19 @@
+{
+  "name": "sportarena",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "db:generate": "npm run db:generate -w @sportarena/database",
+    "db:push": "npm run db:push -w @sportarena/database",
+    "db:seed": "npm run db:seed -w @sportarena/database"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": { "node": ">=20" },
+  "packageManager": "npm@11.12.1"
+}

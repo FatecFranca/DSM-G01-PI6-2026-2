@@ -1,0 +1,14 @@
+import { Global, Module } from "@nestjs/common";
+import { JwtModule } from "@nestjs/jwt";
+import { AuthService } from "./auth.service";
+import { AuthController } from "./auth.controller";
+import { JwtAuthGuard } from "../common/guards/jwt-auth.guard";
+
+@Global()
+@Module({
+  imports: [JwtModule.register({})],
+  controllers: [AuthController],
+  providers: [AuthService, JwtAuthGuard],
+  exports: [AuthService, JwtModule, JwtAuthGuard],
+})
+export class AuthModule {}

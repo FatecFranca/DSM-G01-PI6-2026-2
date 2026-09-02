@@ -1,0 +1,22 @@
+{
+  "name": "@sportarena/database",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": { "@prisma/client": "^6.11.1" },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^6.0.0",
+    "prisma": "^6.11.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "prisma": { "seed": "tsx prisma/seed.ts" }
+}
