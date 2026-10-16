@@ -34,6 +34,8 @@ export class CartService {
     const items = full.items.map((item) => ({
       id: item.id,
       quantity: item.quantity,
+      size: item.size || null,
+      color: item.color || null,
       product: mapProduct(item.product),
     }));
 
@@ -60,18 +62,34 @@ export class CartService {
     }
 
     const cart = await this.ensureCart(userId);
+    const size = dto.size?.trim() || "";
+    const color = dto.color?.trim() || "";
 
-    await this.prisma.cartItem.upsert({
+    const existing = await this.prisma.cartItem.findFirst({
       where: {
-        cartId_productId: { cartId: cart.id, productId: dto.productId },
-      },
-      update: { quantity: { increment: dto.quantity } },
-      create: {
         cartId: cart.id,
         productId: dto.productId,
-        quantity: dto.quantity,
+        size,
+        color,
       },
     });
+
+    if (existing) {
+      await this.prisma.cartItem.update({
+        where: { id: existing.id },
+        data: { quantity: { increment: dto.quantity } },
+      });
+    } else {
+      await this.prisma.cartItem.create({
+        data: {
+          cartId: cart.id,
+          productId: dto.productId,
+          quantity: dto.quantity,
+          size,
+          color,
+        },
+      });
+    }
 
     return this.getCart(userId);
   }
@@ -80,9 +98,12 @@ export class CartService {
     const cart = await this.ensureCart(userId);
     const item = await this.prisma.cartItem.findFirst({
       where: { id: itemId, cartId: cart.id },
+      include: { product: true },
     });
     if (!item) throw new NotFoundException("Item não encontrado");
-
+    if (item.product.stock < quantity) {
+      throw new BadRequestException("Estoque insuficiente");
+    }
     await this.prisma.cartItem.update({
       where: { id: itemId },
       data: { quantity },

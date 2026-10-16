@@ -46,7 +46,7 @@ export class OrdersService {
               productId: i.productId,
               quantity: i.quantity,
               unitPrice: i.product.price,
-              size: i.product.size,
+              size: i.size || i.product.size,
             })),
           },
         },

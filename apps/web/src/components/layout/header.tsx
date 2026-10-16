@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ShoppingBag, Package, Heart, LogOut, Home, PlusCircle } from "lucide-react";
+import { ShoppingBag, Package, LogOut, Home, PlusCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
+import { CategoryMenu, type NavLink } from "./category-menu";
 
-const links = [
+const links: NavLink[] = [
   { href: "/", label: "Loja", icon: Home },
   { href: "/cart", label: "Carrinho", icon: ShoppingBag },
   { href: "/orders", label: "Você comprou", icon: Package },
-  { href: "/for-you", label: "Para você", icon: Heart },
   { href: "/admin/products", label: "Cadastrar", icon: PlusCircle },
 ];
 
@@ -20,18 +20,21 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-border">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <div className="w-9 h-9 rounded-xl bg-brand-600 text-white font-bold flex items-center justify-center">
-            S
-          </div>
-          <div>
-            <p className="font-bold text-slate-900 leading-none">SportArena</p>
-            <p className="text-[11px] text-muted">artigos esportivos</p>
-          </div>
-        </Link>
+      <div className="px-2 sm:px-4 lg:px-6 h-16 flex items-center justify-between gap-4">
+        <div className="flex items-center gap-2 sm:gap-4 shrink-0">
+          <CategoryMenu links={links} />
+          <Link href="/" className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-brand-600 text-white font-bold flex items-center justify-center">
+              S
+            </div>
+            <div className="hidden sm:block">
+              <p className="font-bold text-slate-900 leading-none">SportArena</p>
+              <p className="text-[11px] text-muted">artigos esportivos</p>
+            </div>
+          </Link>
+        </div>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav aria-label="Principal" className="hidden md:flex items-center gap-1">
           {links.map((l) => {
             const Icon = l.icon;
             const active = pathname === l.href;

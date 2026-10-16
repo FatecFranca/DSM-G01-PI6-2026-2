@@ -37,6 +37,8 @@ export interface ProductDto {
   stock: number;
   imageUrl: string | null;
   category?: CategoryDto | null;
+  availableSizes: string[];
+  availableColors: string[];
   createdAt: string;
 }
 
@@ -57,6 +59,8 @@ export interface CreateProductDto {
 export interface CartItemDto {
   id: string;
   quantity: number;
+  size: string | null;
+  color: string | null;
   product: ProductDto;
 }
 

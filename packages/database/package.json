@@ -8,7 +8,8 @@
     "build": "tsc",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
-    "db:seed": "tsx prisma/seed.ts"
+    "db:seed": "tsx prisma/seed.ts",
+    "db:export-products": "tsx prisma/export-products.ts"
   },
   "dependencies": { "@prisma/client": "^6.11.1" },
   "devDependencies": {

@@ -1,18 +1,36 @@
 import { PrismaClient } from "@prisma/client";
 import * as bcrypt from "bcrypt";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 
 const prisma = new PrismaClient();
 
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
+type CategorySeed = { name: string; slug: string; icon: string };
+
+type ProductSeed = {
+  name: string;
+  slug: string;
+  brand: string;
+  description: string;
+  price: number;
+  compareAt: number | null;
+  size: string | null;
+  color: string | null;
+  sport: string | null;
+  stock: number;
+  imageUrl: string | null;
+  category: string | null;
+  active: boolean;
+};
+
+function readJson<T>(file: string): T {
+  return JSON.parse(readFileSync(resolve(__dirname, "data", file), "utf-8"));
 }
 
 async function main() {
+  const categories = readJson<CategorySeed[]>("categories.json");
+  const products = readJson<ProductSeed[]>("products.json");
+
   const passwordHash = await bcrypt.hash("123456", 10);
 
   const admin = await prisma.user.upsert({
@@ -27,114 +45,46 @@ async function main() {
     },
   });
 
-  const categories = [
-    { name: "Calçados", icon: "👟" },
-    { name: "Camisetas", icon: "👕" },
-    { name: "Bolas", icon: "⚽" },
-    { name: "Acessórios", icon: "🎒" },
-    { name: "Equipamentos", icon: "🏋️" },
-  ];
-
-  const createdCats: Record<string, string> = {};
+  const categoryIds: Record<string, string> = {};
   for (const c of categories) {
     const cat = await prisma.category.upsert({
-      where: { slug: slugify(c.name) },
-      update: {},
-      create: { name: c.name, slug: slugify(c.name), icon: c.icon },
+      where: { slug: c.slug },
+      update: { name: c.name, icon: c.icon },
+      create: { name: c.name, slug: c.slug, icon: c.icon },
     });
-    createdCats[c.name] = cat.id;
+    categoryIds[c.name] = cat.id;
   }
 
-  const products = [
-    {
-      name: "Tênis Running Pro X",
-      description: "Amortecimento responsivo para corrida diária.",
-      brand: "ArenaRun",
-      price: 399.9,
-      compareAt: 499.9,
-      size: "42",
-      color: "Preto/Verde",
-      sport: "Corrida",
-      stock: 25,
-      category: "Calçados",
-    },
-    {
-      name: "Camisa Futebol Dry-Fit",
-      description: "Tecido leve que absorve suor. Ideal para treinos.",
-      brand: "KickSport",
-      price: 129.9,
-      size: "M",
-      color: "Verde",
-      sport: "Futebol",
-      stock: 40,
-      category: "Camisetas",
-    },
-    {
-      name: "Bola Oficial Campo",
-      description: "Costura térmica, circunferência oficial.",
-      brand: "GoalMax",
-      price: 189.9,
-      size: "5",
-      color: "Branco",
-      sport: "Futebol",
-      stock: 15,
-      category: "Bolas",
-    },
-    {
-      name: "Garrafa Térmica 750ml",
-      description: "Mantém temperatura por até 12h.",
-      brand: "HydroFit",
-      price: 79.9,
-      color: "Azul",
-      sport: "Geral",
-      stock: 60,
-      category: "Acessórios",
-    },
-    {
-      name: "Halteres 5kg (par)",
-      description: "Revestimento emborrachado antiderrapante.",
-      brand: "IronGym",
-      price: 149.9,
-      size: "5kg",
-      color: "Preto",
-      sport: "Musculação",
-      stock: 20,
-      category: "Equipamentos",
-    },
-    {
-      name: "Shorts Training Flex",
-      description: "Elastano com bolso lateral e cordão.",
-      brand: "ArenaRun",
-      price: 99.9,
-      size: "G",
-      color: "Cinza",
-      sport: "Treino",
-      stock: 35,
-      category: "Camisetas",
-    },
-  ];
+  const unknownCategories = new Set(
+    products
+      .map((p) => p.category)
+      .filter((c): c is string => Boolean(c) && !categoryIds[c!])
+  );
+  if (unknownCategories.size > 0) {
+    throw new Error(
+      `Categorias usadas em products.json mas ausentes em categories.json: ${[...unknownCategories].join(", ")}`
+    );
+  }
 
   for (const p of products) {
-    const slug = slugify(p.name);
+    const data = {
+      name: p.name,
+      description: p.description,
+      brand: p.brand,
+      price: p.price,
+      compareAt: p.compareAt,
+      size: p.size,
+      color: p.color,
+      sport: p.sport,
+      stock: p.stock,
+      imageUrl: p.imageUrl,
+      active: p.active,
+      categoryId: p.category ? categoryIds[p.category] : null,
+    };
     await prisma.product.upsert({
-      where: { slug },
-      update: {},
-      create: {
-        sellerId: admin.id,
-        categoryId: createdCats[p.category],
-        name: p.name,
-        slug,
-        description: p.description,
-        brand: p.brand,
-        price: p.price,
-        compareAt: p.compareAt ?? null,
-        size: p.size ?? null,
-        color: p.color ?? null,
-        sport: p.sport,
-        stock: p.stock,
-        imageUrl: null,
-        active: true,
-      },
+      where: { slug: p.slug },
+      update: data,
+      create: { ...data, slug: p.slug, sellerId: admin.id },
     });
   }
 
@@ -144,7 +94,9 @@ async function main() {
     create: { userId: admin.id },
   });
 
-  console.log("Seed SportArena concluído:", admin.email);
+  console.log(
+    `Seed concluído: ${categories.length} categorias, ${products.length} produtos`
+  );
 }
 
 main()

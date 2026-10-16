@@ -8,7 +8,8 @@
     "build": "turbo build",
     "db:generate": "npm run db:generate -w @sportarena/database",
     "db:push": "npm run db:push -w @sportarena/database",
-    "db:seed": "npm run db:seed -w @sportarena/database"
+    "db:seed": "npm run db:seed -w @sportarena/database",
+    "db:export-products": "npm run db:export-products -w @sportarena/database"
   },
   "devDependencies": {
     "turbo": "^2.5.4",

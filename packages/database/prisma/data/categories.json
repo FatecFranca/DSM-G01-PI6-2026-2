@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Acessórios",
+    "slug": "acessorios",
+    "icon": "🎒"
+  },
+  {
+    "name": "Bolas",
+    "slug": "bolas",
+    "icon": "⚽"
+  },
+  {
+    "name": "Calçados",
+    "slug": "calcados",
+    "icon": "👟"
+  },
+  {
+    "name": "Camisetas",
+    "slug": "camisetas",
+    "icon": "👕"
+  },
+  {
+    "name": "Equipamentos",
+    "slug": "equipamentos",
+    "icon": "🏋️"
+  }
+]

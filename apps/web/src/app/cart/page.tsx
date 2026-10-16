@@ -33,6 +33,7 @@ export default function CartPage() {
       queryClient.invalidateQueries({ queryKey: ["cart"] });
       queryClient.invalidateQueries({ queryKey: ["orders"] });
       queryClient.invalidateQueries({ queryKey: ["purchased"] });
+      queryClient.invalidateQueries({ queryKey: ["recommendations"] });
       router.push("/orders");
     },
   });
@@ -66,6 +67,8 @@ export default function CartPage() {
                   <p className="font-semibold">{item.product.name}</p>
                   <p className="text-sm text-muted">
                     {item.quantity} × {formatCurrency(item.product.price)}
+                    {item.size ? ` · Tam. ${item.size}` : ""}
+                    {item.color ? ` · ${item.color}` : ""}
                   </p>
                 </div>
                 <div className="flex items-center gap-3">

@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+import Link from "next/link";
 import { formatCurrency } from "@sportarena/utils";
 import type { ProductDto } from "@sportarena/types";
 import { ShoppingCart } from "lucide-react";
@@ -15,35 +17,45 @@ export function ProductCard({
   onAdd?: () => void;
   adding?: boolean;
 }) {
+  const [imageFailed, setImageFailed] = useState(false);
+
   return (
     <Card className="overflow-hidden flex flex-col">
-      <div className="h-36 bg-gradient-to-br from-brand-50 to-brand-100 flex items-center justify-center text-5xl">
-        {product.category?.icon ?? "🏅"}
-      </div>
-      <div className="p-4 flex flex-col flex-1 gap-2">
-        <div className="flex items-start justify-between gap-2">
-          <div className="min-w-0">
-            <p className="text-xs text-muted">{product.brand}</p>
-            <h3 className="font-semibold text-slate-900 leading-snug line-clamp-2">
-              {product.name}
-            </h3>
-          </div>
+      <Link href={`/products/${product.id}`} className="block">
+        <div className="relative aspect-square bg-slate-100 overflow-hidden">
+          {product.imageUrl && !imageFailed ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={product.imageUrl}
+              alt={product.name}
+              className="w-full h-full object-cover transition hover:scale-[1.03]"
+              loading="lazy"
+              referrerPolicy="no-referrer"
+              onError={() => setImageFailed(true)}
+            />
+          ) : (
+            <div className="h-full flex items-center justify-center text-5xl bg-gradient-to-br from-brand-50 to-brand-100">
+              {product.category?.icon ?? "🏅"}
+            </div>
+          )}
         </div>
+      </Link>
+      <div className="p-4 flex flex-col flex-1 gap-2">
+        <Link href={`/products/${product.id}`} className="min-w-0">
+          <p className="text-xs text-muted">{product.brand}</p>
+          <h3 className="font-semibold text-slate-900 leading-snug line-clamp-2 hover:text-brand-700">
+            {product.name}
+          </h3>
+        </Link>
         <p className="text-xs text-muted line-clamp-2">{product.description}</p>
         <div className="flex flex-wrap gap-1.5 text-[11px]">
-          {product.size && (
-            <span className="px-2 py-0.5 rounded-lg bg-slate-100">Tam. {product.size}</span>
-          )}
-          {product.color && (
-            <span className="px-2 py-0.5 rounded-lg bg-slate-100">{product.color}</span>
-          )}
           {product.sport && (
             <span className="px-2 py-0.5 rounded-lg bg-brand-50 text-brand-700">
               {product.sport}
             </span>
           )}
         </div>
-        <div className="mt-auto pt-2 flex items-end justify-between gap-2">
+        <div className="mt-auto pt-2 flex flex-wrap items-end justify-between gap-2">
           <div>
             <p className="text-lg font-bold text-slate-900">
               {formatCurrency(product.price)}
@@ -54,12 +66,19 @@ export function ProductCard({
               </p>
             )}
           </div>
-          {onAdd && (
-            <Button size="sm" onClick={onAdd} disabled={adding || product.stock < 1}>
-              <ShoppingCart className="w-3.5 h-3.5 mr-1" />
-              {product.stock < 1 ? "Esgotado" : "Carrinho"}
-            </Button>
-          )}
+          <div className="flex gap-2">
+            <Link href={`/products/${product.id}`}>
+              <Button size="sm" variant="secondary">
+                Ver
+              </Button>
+            </Link>
+            {onAdd && (
+              <Button size="sm" onClick={onAdd} disabled={adding || product.stock < 1}>
+                <ShoppingCart className="w-3.5 h-3.5 mr-1" />
+                {product.stock < 1 ? "Esgotado" : "Carrinho"}
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     </Card>

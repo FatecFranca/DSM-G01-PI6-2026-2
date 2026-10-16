@@ -33,6 +33,40 @@ export function mapCategory(c: {
   return { id: c.id, name: c.name, slug: c.slug, icon: c.icon };
 }
 
+const SHOE_SIZES = Array.from({ length: 11 }, (_, i) => String(34 + i));
+const APPAREL_SIZES = ["P", "M", "G", "GG"];
+const BALL_SIZES = ["3", "4", "5", "7"];
+
+function sizesForCategory(slug?: string | null, fallback?: string | null): string[] {
+  const listed = fallback
+    ?.split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (listed && listed.length > 1) return listed;
+
+  if (slug === "calcados") return SHOE_SIZES;
+  if (slug === "camisetas" || slug === "shorts" || slug === "jaquetas") {
+    return APPAREL_SIZES;
+  }
+  if (slug === "bolas") return BALL_SIZES;
+  if (fallback) return [fallback];
+  return [];
+}
+
+function colorsForProduct(color?: string | null): string[] {
+  if (!color?.trim()) {
+    return ["Preto", "Branco", "Azul", "Vermelho"];
+  }
+  const parts = color
+    .split(/[/|,]/)
+    .map((c) => c.trim())
+    .filter(Boolean);
+  const extras = ["Preto", "Branco", "Azul", "Verde", "Cinza"].filter(
+    (c) => !parts.some((p) => p.toLowerCase() === c.toLowerCase())
+  );
+  return [...parts, ...extras].slice(0, 6);
+}
+
 export function mapProduct(p: {
   id: string;
   name: string;
@@ -49,6 +83,7 @@ export function mapProduct(p: {
   createdAt: Date;
   category?: { id: string; name: string; slug: string; icon: string } | null;
 }) {
+  const categorySlug = p.category?.slug ?? null;
   return {
     id: p.id,
     name: p.name,
@@ -64,5 +99,7 @@ export function mapProduct(p: {
     imageUrl: p.imageUrl,
     createdAt: p.createdAt.toISOString(),
     category: p.category ? mapCategory(p.category) : null,
+    availableSizes: sizesForCategory(categorySlug, p.size),
+    availableColors: colorsForProduct(p.color),
   };
 }
