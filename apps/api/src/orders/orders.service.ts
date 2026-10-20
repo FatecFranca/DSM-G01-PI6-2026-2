@@ -5,10 +5,14 @@ import {
 } from "@nestjs/common";
 import { PrismaService } from "../prisma/prisma.service";
 import { decimalToNumber, mapProduct } from "../common/mappers";
+import { PubSubService } from "../messaging/pubsub.service";
 
 @Injectable()
 export class OrdersService {
-  constructor(private prisma: PrismaService) {}
+  constructor(
+    private prisma: PrismaService,
+    private pubSubService: PubSubService,
+  ) {}
 
   async checkout(userId: string) {
     const cart = await this.prisma.cart.findUnique({
@@ -66,7 +70,24 @@ export class OrdersService {
       return created;
     });
 
-    return this.mapOrder(order);
+    const mappedOrder = this.mapOrder(order);
+
+    // Dispara a mensageria na nuvem (Pub/Sub) com a categoria inclusa
+    await this.pubSubService.publishOrderMessage({
+      orderId: mappedOrder.id,
+      userId,
+      total: mappedOrder.total,
+      items: mappedOrder.items.map((i) => ({
+        productId: i.product.id,
+        name: i.product.name,
+        category: i.product.category?.name ?? 'Geral', // <--- Categoria adicionada aqui de forma limpa
+        quantity: i.quantity,
+        size: i.size,
+      })),
+      createdAt: mappedOrder.createdAt,
+    });
+
+    return mappedOrder;
   }
 
   async findMine(userId: string) {
