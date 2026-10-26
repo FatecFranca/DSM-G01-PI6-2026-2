@@ -10,29 +10,37 @@ import { ProductCard } from "@/components/product-card";
 import { Card } from "@/components/ui/card";
 import { apiFetch } from "@/lib/api";
 import { useAuthStore } from "@/store/auth";
+import { useAuthReady } from "@/hooks/use-auth-ready";
 
 export default function OrdersPage() {
   const router = useRouter();
+  const authReady = useAuthReady();
   const accessToken = useAuthStore((s) => s.accessToken);
 
   useEffect(() => {
-    if (!accessToken) router.replace("/login");
-  }, [accessToken, router]);
+    if (authReady && !accessToken) router.replace("/login");
+  }, [authReady, accessToken, router]);
 
   const { data: orders = [], isLoading } = useQuery({
     queryKey: ["orders"],
     queryFn: () => apiFetch<OrderDto[]>("/orders", { token: accessToken! }),
-    enabled: !!accessToken,
+    enabled: authReady && !!accessToken,
   });
 
   const { data: purchased = [] } = useQuery({
     queryKey: ["purchased"],
     queryFn: () =>
       apiFetch<ProductDto[]>("/orders/purchased", { token: accessToken! }),
-    enabled: !!accessToken,
+    enabled: authReady && !!accessToken,
   });
 
-  if (!accessToken) return null;
+  if (!authReady || !accessToken) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="w-8 h-8 border-2 border-brand-600 border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen">

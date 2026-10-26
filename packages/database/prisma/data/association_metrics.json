@@ -1,0 +1,110 @@
+{
+  "seed": 7,
+  "validation_size": 0.2,
+  "n_baskets": 75,
+  "n_train": 60,
+  "n_test": 15,
+  "apriori": {
+    "min_support": 0.04,
+    "n_rules": 20,
+    "hit_at_3_train": 0.2874,
+    "hit_at_3_test": 0.1395
+  },
+  "classifiers_cv": [
+    {
+      "modelo": "LR",
+      "cv_accuracy_media": 0.9978260869565216,
+      "cv_std": 0.006521739130434779
+    },
+    {
+      "modelo": "SVM",
+      "cv_accuracy_media": 0.9978260869565216,
+      "cv_std": 0.006521739130434779
+    },
+    {
+      "modelo": "NB",
+      "cv_accuracy_media": 0.9978260869565216,
+      "cv_std": 0.006521739130434779
+    },
+    {
+      "modelo": "CART",
+      "cv_accuracy_media": 0.9934782608695653,
+      "cv_std": 0.00996212107599095
+    },
+    {
+      "modelo": "LDA",
+      "cv_accuracy_media": 0.9849213691026826,
+      "cv_std": 0.013711949909766666
+    },
+    {
+      "modelo": "KNN",
+      "cv_accuracy_media": 0.978353376503238,
+      "cv_std": 0.021739917713616545
+    }
+  ],
+  "classifiers_test": [
+    {
+      "modelo": "LR",
+      "cv_accuracy": 0.9978260869565216,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    },
+    {
+      "modelo": "LDA",
+      "cv_accuracy": 0.9849213691026826,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    },
+    {
+      "modelo": "KNN",
+      "cv_accuracy": 0.978353376503238,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    },
+    {
+      "modelo": "CART",
+      "cv_accuracy": 0.9934782608695653,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    },
+    {
+      "modelo": "NB",
+      "cv_accuracy": 0.9978260869565216,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    },
+    {
+      "modelo": "SVM",
+      "cv_accuracy": 0.9978260869565216,
+      "test_accuracy": 0.4444444444444444,
+      "test_precision": 1.0,
+      "test_recall": 0.16666666666666666,
+      "test_f1": 0.2857142857142857
+    }
+  ],
+  "best_model": "LR",
+  "best_model_metrics": {
+    "test_accuracy": 0.4444,
+    "test_precision": 1.0,
+    "test_recall": 0.1667,
+    "test_f1": 0.2857,
+    "hybrid_hit_at_3_test": 0.2093
+  },
+  "feature_names": [
+    "same_sport",
+    "same_category",
+    "same_brand",
+    "price_diff_norm",
+    "log_cooccur_train"
+  ]
+}

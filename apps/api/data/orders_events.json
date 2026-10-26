@@ -121,5 +121,58 @@
       }
     ],
     "createdAt": "2026-10-20T08:38:18.130Z"
+  },
+  {
+    "savedAt": "2026-10-20T23:53:21.656Z",
+    "orderId": "2db7eb8f-f736-4677-9cae-9f8ca1f8e5a6",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "total": 209.94,
+    "items": [
+      {
+        "productId": "08ffc609-e741-4894-8dbc-c1fb2e97bd57",
+        "name": "Nike One - Calções 2 em 1 de 8 cm Dri-FIT para rapariga",
+        "category": "Camisetas",
+        "quantity": 1,
+        "size": "P, M, G"
+      }
+    ],
+    "createdAt": "2026-10-20T23:53:21.645Z"
+  },
+  {
+    "savedAt": "2026-10-21T00:49:59.858Z",
+    "orderId": "88bfc141-460a-4b81-a263-08ae3a926b79",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "total": 3479.7,
+    "items": [
+      {
+        "productId": "558802a5-6d4a-450a-8458-8dac3ad14826",
+        "name": "Nike Trailwind - Casaco de running impermeável Storm-FIT ADV para homem",
+        "category": "Camisetas",
+        "quantity": 2,
+        "size": "P, M, G"
+      },
+      {
+        "productId": "0906924a-16ec-43ec-9c9e-1eaf273c3b90",
+        "name": "Nike Air Max - Calças entrançadas para homem",
+        "category": "Camisetas",
+        "quantity": 1,
+        "size": "P, M, G"
+      },
+      {
+        "productId": "08ffc609-e741-4894-8dbc-c1fb2e97bd57",
+        "name": "Nike One - Calções 2 em 1 de 8 cm Dri-FIT para mulher",
+        "category": "Camisetas",
+        "quantity": 1,
+        "size": "P, M, G"
+      },
+      {
+        "productId": "eb2304fb-971b-431f-bad6-3c6a727f01f7",
+        "name": "Quarto equipamento Stadium FC Barcelona 2025/26 - Camisola de futebol Replica Nike Dri-FIT para homem",
+        "category": "Camisetas",
+        "quantity": 1,
+        "size": "P, M, G"
+      }
+    ],
+    "createdAt": "2026-10-21T00:49:59.814Z"
   }
 ]

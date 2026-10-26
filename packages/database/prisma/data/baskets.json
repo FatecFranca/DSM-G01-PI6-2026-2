@@ -1,0 +1,2912 @@
+[
+  {
+    "orderId": "59346a5b-edde-4aa0-b7f3-f6743e9f709b",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.070Z",
+    "items": [
+      {
+        "productId": "021002a7-0b38-4cc8-9d9e-c499d5b6ab16",
+        "slug": "nike-tour-classic-4-luva-de-golfe-para-homem-esquerda-regular-nike-dr5164-284",
+        "name": "Nike Tour Classic 4 - Luva de golfe para homem (esquerda regular)",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 179.94,
+        "quantity": 2
+      },
+      {
+        "productId": "3c6fd7f3-9d95-4ad6-8557-dbdea069990d",
+        "slug": "nike-multi-calcoes-de-treino-dri-fit-junior-nike-dx5382-010",
+        "name": "Nike Multi - Calções de treino Dri-FIT Júnior",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.94,
+        "quantity": 1
+      },
+      {
+        "productId": "b854fd0c-9a6d-4eca-ae5e-c5cb8b9f20c5",
+        "slug": "nike-sportswear-t-shirt-max90-para-homem-nike-iq1009-010",
+        "name": "Nike Sportswear - T-shirt Max90 para homem",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "0964f9cb-8e2b-4bbb-a96d-40fe6b5f3ef0",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.075Z",
+    "items": [
+      {
+        "productId": "67b84751-7245-4b35-9366-d9660deaedff",
+        "slug": "nike-multi-calcoes-de-la-cardada-dri-fit-junior-nike-hj3709-010",
+        "name": "Nike Multi - Calções de lã cardada Dri-FIT Júnior",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 269.94,
+        "quantity": 1
+      },
+      {
+        "productId": "2f3b14a2-b898-4889-a4b6-2ae81b2036c6",
+        "slug": "jordan-brooklyn-calcas-draft-para-homem-jordan-ih3320-068",
+        "name": "Jordan Brooklyn - Calças Draft para homem",
+        "brand": "Jordan",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 2
+      },
+      {
+        "productId": "c25a44ec-6749-4c34-b472-b95e95f1e1e6",
+        "slug": "nike-retro-calcas-de-treino-dri-fit-para-homem-nike-if2032-613",
+        "name": "Nike Retro - Calças de treino Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 509.94,
+        "quantity": 1
+      },
+      {
+        "productId": "045a0429-5173-4d30-815b-a0c30edf2e8c",
+        "slug": "nike-sportswear-casaco-junior-rapariga-nike-hv0402-047",
+        "name": "Nike Sportswear - Casaco Júnior (Rapariga)",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 719.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "68a2a2a8-cbd5-4099-afe6-c6eca3715461",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.078Z",
+    "items": [
+      {
+        "productId": "bb74a6d3-5fde-49d1-9ec2-1a4a804a78b7",
+        "slug": "france-limited-road-calcoes-de-basquetebol-nike-para-homem-nike-fq0391-405",
+        "name": "France Limited Road - Calções de basquetebol Nike para homem",
+        "brand": "Nike",
+        "sport": "Geral",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 1
+      },
+      {
+        "productId": "be1c0240-6487-416d-af27-636603e0f888",
+        "slug": "paris-saint-germain-t-shirt-de-futebol-nike-junior-nike-if0511-100",
+        "name": "Paris Saint-Germain - T-shirt de futebol Nike Júnior",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 149.94,
+        "quantity": 1
+      },
+      {
+        "productId": "65bfd216-3b0b-48fe-aff2-3b610585e799",
+        "slug": "nike-acg-t-shirt-dri-fit-para-homem-nike-ih1304-010",
+        "name": "Nike ACG - T-shirt Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 299.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "2e4c530a-fb94-4903-afae-4929b129848e",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.080Z",
+    "items": [
+      {
+        "productId": "be1c0240-6487-416d-af27-636603e0f888",
+        "slug": "paris-saint-germain-t-shirt-de-futebol-nike-junior-nike-if0511-100",
+        "name": "Paris Saint-Germain - T-shirt de futebol Nike Júnior",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 149.94,
+        "quantity": 1
+      },
+      {
+        "productId": "22b6827d-67c5-450f-ba65-af4d50cb6376",
+        "slug": "calca-barra-aberta-premium-essentials-adidas-jc9576",
+        "name": "Calça Barra Aberta Premium Essentials",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.99,
+        "quantity": 2
+      },
+      {
+        "productId": "c4be2a01-b0bc-4b20-b972-4b42c83f69ea",
+        "slug": "conjunto-shorts-essentials-linear-adidas-jd5432",
+        "name": "Conjunto Shorts Essentials Linear",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 589.99,
+        "quantity": 2
+      },
+      {
+        "productId": "1d831aa6-c6e4-4d8e-bdba-52a13154ec5b",
+        "slug": "nike-tailored-performance-polo-de-golfe-dri-fit-para-homem-nike-io2165-100",
+        "name": "Nike Tailored Performance - Polo de golfe Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 659.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "f01d5f66-badc-4af9-99aa-a18104444144",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.083Z",
+    "items": [
+      {
+        "productId": "aaf67541-52d7-4785-a6df-34b54de7d761",
+        "slug": "nike-miler-camisola-de-manga-curta-dri-fit-junior-nike-if2425-084",
+        "name": "Nike Miler - Camisola de manga curta Dri-FIT Júnior",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 167.94,
+        "quantity": 1
+      },
+      {
+        "productId": "aa09cf09-b0fe-47c5-833b-5d14694db58d",
+        "slug": "agasalho-aeroready-sereno-cut-tres-listras-adidas-iw5977",
+        "name": "Agasalho AEROREADY Sereno Cut Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 2
+      },
+      {
+        "productId": "d948e906-c65c-4310-bdfd-90f18f2c3654",
+        "slug": "jaqueta-material-sintetico-santiago-adidas-kd2431",
+        "name": "Jaqueta Material Sintético Santiago",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 679.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "3e8c4c9a-0111-4195-a65c-fdb82d41e794",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.085Z",
+    "items": [
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 2
+      },
+      {
+        "productId": "2421639f-e751-4c0f-ace5-6ef040f5fa51",
+        "slug": "nike-stride-tights-de-running-ate-meio-dri-fit-para-homem-nike-if2040-010",
+        "name": "Nike Stride - Tights de running até meio Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 389.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "83b26701-ac04-4794-a215-5c68c7a95086",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.088Z",
+    "items": [
+      {
+        "productId": "d352fab6-603b-4dfa-91df-265a81c529cf",
+        "slug": "nikecourt-slam-polo-de-tenis-dri-fit-adv-para-homem-nike-ib1020-368",
+        "name": "NikeCourt Slam - Polo de ténis Dri-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 629.94,
+        "quantity": 2
+      },
+      {
+        "productId": "d14ad322-8aea-4737-8627-7f5b537c8503",
+        "slug": "calca-esportiva-selecao-nacional-do-mexico-1986-adidas-jx4102",
+        "name": "Calça Esportiva Seleção Nacional do México 1986",
+        "brand": "Adidas",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.99,
+        "quantity": 2
+      },
+      {
+        "productId": "19450e47-fb97-484a-8fa5-3318dc7a2b99",
+        "slug": "caneleira-futebol-pro",
+        "name": "Caneleira Futebol Pro",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 79.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "e9af181b-54c3-4d95-a6e3-b8c3dc73999d",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.090Z",
+    "items": [
+      {
+        "productId": "0a5b644b-77aa-4e1c-9449-c9a374d4472b",
+        "slug": "camiseta-trefoil-essentials-adidas-kd1323",
+        "name": "Camiseta Trefoil Essentials",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "a3cbefbb-4246-416b-8234-a947dcd4609d",
+        "slug": "nike-sportswear-calcas-para-rapariga-nike-hf8198-134",
+        "name": "Nike Sportswear - Calças para rapariga",
+        "brand": "Nike",
+        "sport": "Dança",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 1
+      },
+      {
+        "productId": "ca86a492-c3d1-432a-a070-1b6bf500dd24",
+        "slug": "nike-sportswear-air-max-hoodie-de-la-cardada-com-fecho-ate-meio-para-homem-nike-if0396-060",
+        "name": "Nike Sportswear Air Max - Hoodie de lã cardada com fecho até meio para homem",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 569.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "5cde08ea-966f-4b82-995e-d2f6921fedc9",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.093Z",
+    "items": [
+      {
+        "productId": "2421639f-e751-4c0f-ace5-6ef040f5fa51",
+        "slug": "nike-stride-tights-de-running-ate-meio-dri-fit-para-homem-nike-if2040-010",
+        "name": "Nike Stride - Tights de running até meio Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 389.94,
+        "quantity": 2
+      },
+      {
+        "productId": "e02b47b3-8334-4d0e-bf1d-505026e705ad",
+        "slug": "nike-fast-tights-de-running-forradas-com-slips-e-com-comprimento-ate-meio-dri-fit-para-homem-nike-fn3371-491",
+        "name": "Nike Fast - Tights de running forradas com slips e com comprimento até meio Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "e4125eff-6109-4d05-8ed2-31713eed9fb2",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.095Z",
+    "items": [
+      {
+        "productId": "84f186c3-640b-4e42-a4fa-2fae0466bdc6",
+        "slug": "nike-acg-smith-summit-calcas-junior-nike-if1709-010",
+        "name": "Nike ACG \"Smith Summit\" - Calças Júnior",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 1
+      },
+      {
+        "productId": "2625a3fb-d9aa-4c9d-97fb-af42bce2b965",
+        "slug": "calca-utility-adidas-jy2771",
+        "name": "Calça Utility",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "9524d16f-cf87-410e-ab20-be1cac516428",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.097Z",
+    "items": [
+      {
+        "productId": "bace16d0-89b7-4999-baf8-b6f517a1654e",
+        "slug": "nike-pro-hoodie-pullover-de-la-cardada-dri-fit-junior-rapaz-nike-if1723-010",
+        "name": "Nike Pro - Hoodie pullover de lã cardada Dri-FIT Júnior (Rapaz)",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 329.94,
+        "quantity": 2
+      },
+      {
+        "productId": "2f5bc635-942c-4d5b-b704-04856b5e1c25",
+        "slug": "nikeskims-weightless-layers-leggings-de-cintura-subida-com-painel-em-v-para-mulher-nike-iu8311-662",
+        "name": "NikeSKIMS Weightless Layers - Leggings de cintura subida com painel em V para mulher",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 569.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "920ab80a-840f-4c5e-b3b1-a6aba793322a",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.099Z",
+    "items": [
+      {
+        "productId": "dc010c88-6377-48c7-93b6-aafdfe01a4c0",
+        "slug": "nike-pro-camisola-de-fitness-justa-de-manga-comprida-dri-fit-para-homem-nike-fb7919-100",
+        "name": "Nike Pro - Camisola de fitness justa de manga comprida Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 1
+      },
+      {
+        "productId": "626afc35-9d23-42ea-8acc-b07e6c7c3803",
+        "slug": "moletom-moletinho-brushed-y-3-adidas-ks5451",
+        "name": "Moletom Moletinho Brushed Y-3",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 529.99,
+        "quantity": 2
+      },
+      {
+        "productId": "8afff53a-1815-4783-8ed1-ebaf45f917fe",
+        "slug": "nike-total-90-camisola-de-futebol-dri-fit-para-homem-nike-ib4214-422",
+        "name": "Nike Total 90 - Camisola de futebol Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 389.94,
+        "quantity": 1
+      },
+      {
+        "productId": "775d051d-7484-4041-80c1-972bfc07d56b",
+        "slug": "equipamento-alternativo-stadium-springboks-2025-26-camisola-de-raguebi-nike-replica-do-equipamento-alternativo-para-homem-nike-ib6780-100",
+        "name": "Equipamento alternativo Stadium Springboks 2025/26 - Camisola de râguebi Nike Replica do equipamento alternativo para homem",
+        "brand": "Nike",
+        "sport": "Rugby",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 599.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "a99a35cf-bc66-4616-a4f6-17258922e1fb",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.102Z",
+    "items": [
+      {
+        "productId": "e1fa7784-51af-427a-b0b9-d5a819ff8258",
+        "slug": "nike-pro-octa-calcas-therma-fit-adv-para-homem-nike-hv3803-390",
+        "name": "Nike Pro Octa - Calças Therma-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 749.94,
+        "quantity": 1
+      },
+      {
+        "productId": "3098820e-d680-44db-b538-380849807189",
+        "slug": "springboks-hoodie-de-treino-de-raguebi-com-fecho-completo-nike-para-homem-nike-ib6776-330",
+        "name": "Springboks - Hoodie de treino de râguebi com fecho completo Nike para homem",
+        "brand": "Nike",
+        "sport": "Rugby",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 509.94,
+        "quantity": 1
+      },
+      {
+        "productId": "32f28487-0f83-436b-b331-892f853b367c",
+        "slug": "jordan-sport-polo-de-golfe-para-homem-jordan-hq8479-248",
+        "name": "Jordan Sport - Polo de golfe para homem",
+        "brand": "Jordan",
+        "sport": "Golfe",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 719.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "6a463464-d215-4deb-8b74-aaeeec44b096",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.104Z",
+    "items": [
+      {
+        "productId": "b613548e-193a-42f5-bc6d-8092751ec7e3",
+        "slug": "moletinho-capuz-ziper-essentials-tres-listras-adidas-kd4902",
+        "name": "Moletinho Capuz Zíper Essentials Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 329.99,
+        "quantity": 2
+      },
+      {
+        "productId": "5acd95ad-ae17-4185-8dba-b7dc2a81a732",
+        "slug": "nike-gym-heritage-camisola-de-treino-de-la-cardada-dri-fit-para-homem-nike-hv3785-619",
+        "name": "Nike Gym Heritage - Camisola de treino de lã cardada Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "81e28444-14e2-446a-8195-a55dab0fc1f7",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.106Z",
+    "items": [
+      {
+        "productId": "943aa730-caa3-4fd0-8804-8adb73038404",
+        "slug": "nike-totality-calcoes-versateis-sem-forro-de-18-cm-dri-fit-para-homem-nike-fb4196-364",
+        "name": "Nike Totality - Calções versáteis sem forro de 18 cm Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 209.94,
+        "quantity": 2
+      },
+      {
+        "productId": "451cb535-c315-4880-a382-7fd925ca887b",
+        "slug": "polo-seasonal-essentials-colorpop-com-estampa-bordada-adidas-kc4000",
+        "name": "Polo Seasonal Essentials Colorpop com Estampa Bordada",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 219.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "151b2e1f-6a1f-4cf4-98e0-e27adbffdcf2",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.109Z",
+    "items": [
+      {
+        "productId": "32806c8e-6abb-4460-9302-e6276f6f3eb3",
+        "slug": "nikecourt-advantage-calcoes-de-tenis-de-15-cm-dri-fit-para-homem-nike-ib1071-573",
+        "name": "NikeCourt Advantage - Calções de ténis de 15 cm Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 389.94,
+        "quantity": 1
+      },
+      {
+        "productId": "ea37abe6-1c71-47fa-9c06-1726d19e1522",
+        "slug": "agasalho-dayready-adidas-ji8858",
+        "name": "Agasalho Dayready",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 2
+      },
+      {
+        "productId": "af6859d6-0718-46c1-9c3a-0d17a71da187",
+        "slug": "camiseta-own-the-run-tres-listras-feminina-adidas-ks7733",
+        "name": "Camiseta OWN THE RUN TRÊS LISTRAS FEMININA",
+        "brand": "Adidas",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "0c4bffd0-22db-4c88-8da6-9bd68deb03a5",
+        "slug": "nike-solar-chase-camisola-de-running-de-manga-curta-dri-fit-adv-para-homem-nike-hj3580-010",
+        "name": "Nike Solar Chase - Camisola de running de manga curta Dri-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "bc94f1a6-ebe2-4d26-8b57-296e69f39cfa",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.112Z",
+    "items": [
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4fb3ffe-8050-4a0f-acbc-feca0df2f2ac",
+        "slug": "nike-sportswear-tech-fleece-hoodie-com-fecho-completo-e-integracao-de-design-refletor-junior-nike-im9154-010",
+        "name": "Nike Sportswear Tech Fleece - Hoodie com fecho completo e integração de design refletor Júnior",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 1
+      },
+      {
+        "productId": "86ef79e5-6804-44d3-87b5-b216112828b1",
+        "slug": "nike-swoosh-sutia-de-desporto-para-rapariga-nike-fj7161-100",
+        "name": "Nike Swoosh - Sutiã de desporto para rapariga",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 167.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "57a674e2-8421-4087-a0a3-ad53108758be",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.114Z",
+    "items": [
+      {
+        "productId": "4829e474-d892-4cbb-87c0-902617f94dd2",
+        "slug": "nike-charge-caneleiras-de-futebol-para-crianca-nike-dx4610-100",
+        "name": "Nike Charge - Caneleiras de futebol para criança",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 137.94,
+        "quantity": 2
+      },
+      {
+        "productId": "021002a7-0b38-4cc8-9d9e-c499d5b6ab16",
+        "slug": "nike-tour-classic-4-luva-de-golfe-para-homem-esquerda-regular-nike-dr5164-284",
+        "name": "Nike Tour Classic 4 - Luva de golfe para homem (esquerda regular)",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 179.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "afdacd64-6bb0-441b-a2b7-26592d016a8b",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.116Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "2886fcb7-f5bb-42b5-890e-52c3b9849db0",
+        "slug": "nike-dura-feel-10-luva-de-golfe-para-mulher-mao-esquerda-nike-dr5137-284",
+        "name": "Nike Dura Feel 10 - Luva de golfe para mulher (mão esquerda)",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 89.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "30fb5a41-2d29-4b06-8402-56b3e5e3f58f",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.119Z",
+    "items": [
+      {
+        "productId": "79899a78-c446-4788-adca-53833e95f8a0",
+        "slug": "camiseta-jamaica-26-x-bob-marley-tiro-sweat-adidas-kb3367",
+        "name": "Camiseta Jamaica 26 x Bob Marley Tiro Sweat",
+        "brand": "Adidas",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "98318404-73c8-4b9c-9bf7-932653cc47a4",
+        "slug": "club-chelsea-fc-calcas-desportivas-de-futebol-em-la-cardada-nike-para-homem-nike-hv0492-451",
+        "name": "Club Chelsea FC - Calças desportivas de futebol em lã cardada Nike para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "4eb99fcd-4db6-4de5-a2a1-47968b893fbb",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.121Z",
+    "items": [
+      {
+        "productId": "05fd9226-f792-4340-95a5-a79ab71cd42c",
+        "slug": "nike-pro-leggings-dri-fit-para-rapariga-nike-if1776-502",
+        "name": "Nike Pro - Leggings Dri-FIT para rapariga",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 257.94,
+        "quantity": 2
+      },
+      {
+        "productId": "82481f26-1e86-4323-8122-6d1f89ecc46f",
+        "slug": "jaqueta-sst-2-0-adicolor-adidas-kd5836",
+        "name": "Jaqueta SST 2.0 Adicolor",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 679.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "c62bb75c-2cb3-4fb4-9db4-1a314ac041c4",
+    "userId": "a209c37f-0310-418f-840f-c8d7e0e1b52a",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.123Z",
+    "items": [
+      {
+        "productId": "cd1f9876-1726-48ad-b431-9dae543e11ae",
+        "slug": "nike-universa-sutia-de-desporto-almofadado-de-suporte-medio-nike-io9335-010",
+        "name": "Nike Universa - Sutiã de desporto almofadado de suporte médio",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 2
+      },
+      {
+        "productId": "c0023e76-f789-45a2-a65e-98b0c12d9220",
+        "slug": "equipamento-alternativo-stadium-fff-equipa-feminina-2024-25-camisola-de-futebol-de-replica-nike-dri-fit-para-homem-nike-fj4273-101",
+        "name": "Equipamento alternativo Stadium FFF (equipa feminina) 2024/25 - Camisola de futebol de réplica Nike Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 599.94,
+        "quantity": 1
+      },
+      {
+        "productId": "e4f8e406-2540-4868-b980-a59b9b804aa7",
+        "slug": "wolf-tree-plus-se-inter-de-milao-calcas-de-futebol-de-la-cardada-nike-acg-nike-ib3844-413",
+        "name": "\"Wolf Tree\" Plus SE Inter de Milão - Calças de futebol de lã cardada Nike ACG",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 899.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "eb02f01e-3b1f-47f1-800f-6456b98ab8b4",
+    "userId": "a209c37f-0310-418f-840f-c8d7e0e1b52a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.126Z",
+    "items": [
+      {
+        "productId": "8741fe2d-c16a-46ad-8213-b0f44b293d0d",
+        "slug": "agasalho-essentials-3-stripes-adidas-jd5435",
+        "name": "Agasalho Essentials 3-Stripes",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "aa09cf09-b0fe-47c5-833b-5d14694db58d",
+        "slug": "agasalho-aeroready-sereno-cut-tres-listras-adidas-iw5977",
+        "name": "Agasalho AEROREADY Sereno Cut Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "238ce9a3-b3cf-4454-a19c-a280ede6d9ba",
+        "slug": "kobe-hoodie-pullover-de-basquetebol-em-la-cardada-dri-fit-para-homem-nike-iq0947-010",
+        "name": "Kobe - Hoodie pullover de basquetebol em lã cardada Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Basquete",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 2
+      },
+      {
+        "productId": "7b2a345e-7dcc-416c-a017-ed852d473bb3",
+        "slug": "moletom-gola-careca-vintage-skateboarding-adidas-kd1166",
+        "name": "Moletom Gola Careca Vintage Skateboarding",
+        "brand": "Adidas",
+        "sport": "Skate",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 529.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "47e52721-38b4-4352-a664-45c3b03a08fe",
+    "userId": "a209c37f-0310-418f-840f-c8d7e0e1b52a",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.128Z",
+    "items": [
+      {
+        "productId": "40d1fd82-e1a7-40b0-9c9c-33de6048d37d",
+        "slug": "jaqueta-firebird-classic-adidas-kc6566",
+        "name": "Jaqueta Firebird Classic",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 679.99,
+        "quantity": 1
+      },
+      {
+        "productId": "6cf44283-69c1-4212-9a8c-237424fb2348",
+        "slug": "brooklyn-nets-club-hoodie-pullover-nba-nike-para-homem-nike-hm9869-010",
+        "name": "Brooklyn Nets Club - Hoodie pullover NBA Nike para homem",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "f35df346-ca9c-4a65-809f-dd0205f721f3",
+    "userId": "a209c37f-0310-418f-840f-c8d7e0e1b52a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.130Z",
+    "items": [
+      {
+        "productId": "5a10c41a-33a1-4c2a-9d1d-316574eb9ed6",
+        "slug": "nike-guard-lock-elite-perneiras-de-futebol-nike-se0173-011",
+        "name": "Nike Guard Lock Elite - Perneiras de futebol",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 107.94,
+        "quantity": 1
+      },
+      {
+        "productId": "e02b47b3-8334-4d0e-bf1d-505026e705ad",
+        "slug": "nike-fast-tights-de-running-forradas-com-slips-e-com-comprimento-ate-meio-dri-fit-para-homem-nike-fn3371-491",
+        "name": "Nike Fast - Tights de running forradas com slips e com comprimento até meio Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 2
+      },
+      {
+        "productId": "b613548e-193a-42f5-bc6d-8092751ec7e3",
+        "slug": "moletinho-capuz-ziper-essentials-tres-listras-adidas-kd4902",
+        "name": "Moletinho Capuz Zíper Essentials Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 329.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "0eea3029-00dd-4248-80f0-727604dbefa2",
+    "userId": "305b4e20-9e7d-4f75-9455-bf8b8655c42f",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.133Z",
+    "items": [
+      {
+        "productId": "6308436a-9ee6-4e27-8357-7d2a14669140",
+        "slug": "nike-acg-hoodie-pullover-junior-nike-if1710-010",
+        "name": "Nike ACG - Hoodie pullover Júnior",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 2
+      },
+      {
+        "productId": "d5e44316-25ae-4742-bbc3-b2c29bcdc94a",
+        "slug": "nike-acg-primaloft-skull-peak-casaco-storm-fit-para-homem-nike-fv8681-010",
+        "name": "Nike ACG PrimaLoft® \"Skull Peak\" - Casaco Storm-FIT para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 1799.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "72a14617-d5cc-48c4-ada8-ac75d0dfacfc",
+    "userId": "305b4e20-9e7d-4f75-9455-bf8b8655c42f",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.135Z",
+    "items": [
+      {
+        "productId": "991a69d0-c9ad-49fd-bed8-3215295e60c6",
+        "slug": "agasalho-adidas-linear-adidas-kc3830",
+        "name": "Agasalho adidas Linear",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "f78eab28-4d01-42e9-9ec7-cc8af530a3d4",
+        "slug": "nike-t-shirt-junior-nike-ii0610-010",
+        "name": "Nike - T-shirt Júnior",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 149.94,
+        "quantity": 1
+      },
+      {
+        "productId": "0a5b644b-77aa-4e1c-9449-c9a374d4472b",
+        "slug": "camiseta-trefoil-essentials-adidas-kd1323",
+        "name": "Camiseta Trefoil Essentials",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "d2c7a4e1-319c-442c-9fa9-ea61bc465438",
+    "userId": "236f6983-227e-4d74-964f-8fb738ce2528",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.137Z",
+    "items": [
+      {
+        "productId": "a255f392-27ca-49e0-8cd1-72a13b4ad104",
+        "slug": "nike-hoodie-de-treino-de-inverno-therma-fit-junior-nike-fz5323-010",
+        "name": "Nike - Hoodie de treino de inverno Therma-FIT Júnior",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 1
+      },
+      {
+        "productId": "d1c1f790-a6bb-4e3e-9447-2424198912d5",
+        "slug": "tenis-training-cross-flex",
+        "name": "Tênis Training Cross Flex",
+        "brand": "IronGym",
+        "sport": "Treino",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 349.9,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "538e54ce-ae8c-416a-a536-a3a092d046c5",
+    "userId": "236f6983-227e-4d74-964f-8fb738ce2528",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.140Z",
+    "items": [
+      {
+        "productId": "8c65f68a-8f06-466f-8597-ab47c3785ff6",
+        "slug": "nikeskims-matte-sutia-com-microdecote-para-mulher-nike-iu8284-054",
+        "name": "NikeSKIMS Matte - Sutiã com microdecote para mulher",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 2
+      },
+      {
+        "productId": "26daa6af-6581-402c-970f-660d401fa8e9",
+        "slug": "nike-acg-wolf-tree-casaco-com-fecho-completo-nike-if0964-368",
+        "name": "Nike ACG \"Wolf Tree\" - Casaco com fecho completo",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 719.94,
+        "quantity": 1
+      },
+      {
+        "productId": "e1fa7784-51af-427a-b0b9-d5a819ff8258",
+        "slug": "nike-pro-octa-calcas-therma-fit-adv-para-homem-nike-hv3803-390",
+        "name": "Nike Pro Octa - Calças Therma-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 749.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "19ac05e1-ea39-4e89-a910-e786d1dd95e2",
+    "userId": "236f6983-227e-4d74-964f-8fb738ce2528",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.143Z",
+    "items": [
+      {
+        "productId": "15733fd8-aebc-40a3-aed5-e22e32d0ec7a",
+        "slug": "quarto-equipamento-strike-fc-barcelona-fato-de-treino-de-futebol-nike-dri-fit-para-homem-nike-fz1404-431",
+        "name": "Quarto equipamento Strike FC Barcelona - Fato de treino de futebol Nike Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 839.94,
+        "quantity": 1
+      },
+      {
+        "productId": "5cfa0d22-95f6-46dd-a63c-b7d44b4a1f11",
+        "slug": "tatum-hoop-fleece-calcas-dri-fit-para-homem-jordan-ih0606-084",
+        "name": "Tatum Hoop Fleece - Calças Dri-FIT para homem",
+        "brand": "Jordan",
+        "sport": "Basquete",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 599.94,
+        "quantity": 1
+      },
+      {
+        "productId": "793a23e2-3b60-4fca-ba9c-67ebafdd7733",
+        "slug": "jaqueta-corta-vento-run",
+        "name": "Jaqueta Corta-Vento Run",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 249.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "fdc1d0e6-2c04-4b49-ba00-8d13fdcb01d8",
+    "userId": "92bb017b-1215-4c80-870f-a6e1e0d52f21",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.145Z",
+    "items": [
+      {
+        "productId": "ca9e3517-0a76-43b4-b6b7-252309630df3",
+        "slug": "corda-de-pular-pro",
+        "name": "Corda de Pular Pro",
+        "brand": "IronGym",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 49.9,
+        "quantity": 1
+      },
+      {
+        "productId": "3cacfc0f-9cac-4371-a671-41e43a25230a",
+        "slug": "nike-sportswear-camisola-sem-mangas-dri-fit-junior-rapariga-nike-if1703-057",
+        "name": "Nike Sportswear - Camisola sem mangas Dri-FIT Júnior (Rapariga)",
+        "brand": "Nike",
+        "sport": "Dança",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 197.94,
+        "quantity": 1
+      },
+      {
+        "productId": "e02b47b3-8334-4d0e-bf1d-505026e705ad",
+        "slug": "nike-fast-tights-de-running-forradas-com-slips-e-com-comprimento-ate-meio-dri-fit-para-homem-nike-fn3371-491",
+        "name": "Nike Fast - Tights de running forradas com slips e com comprimento até meio Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "379050d1-e8c2-411f-a0e3-e19868064201",
+    "userId": "92bb017b-1215-4c80-870f-a6e1e0d52f21",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.147Z",
+    "items": [
+      {
+        "productId": "65b1b3b3-caba-4eb0-b41a-50803330629d",
+        "slug": "nikecourt-victory-camisola-de-tenis-dri-fit-para-homem-nike-ib1530-430",
+        "name": "NikeCourt Victory - Camisola de ténis Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 269.94,
+        "quantity": 1
+      },
+      {
+        "productId": "bfdaa555-b006-46e8-9873-1484756d8e56",
+        "slug": "moletom-capuz-cropped-eqt-adidas-jx1598",
+        "name": "Moletom Capuz Cropped EQT",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 529.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "edd27d2d-85bd-497f-b91b-d12e79ab5ce4",
+    "userId": "3fc27987-0044-4e7c-978f-65389a156927",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.149Z",
+    "items": [
+      {
+        "productId": "c789b60d-ab9e-41fd-8e40-adce9bdc0cbb",
+        "slug": "nike-swoosh-sutia-de-desporto-sem-almofadas-de-suporte-medio-para-mulher-nike-if5648-100",
+        "name": "Nike Swoosh - Sutiã de desporto sem almofadas de suporte médio para mulher",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 209.94,
+        "quantity": 1
+      },
+      {
+        "productId": "a4c596d1-bab8-41d9-b3a1-c792117405f7",
+        "slug": "camiseta-argentina-reconstructed-bringback-adidas-ke2289",
+        "name": "Camiseta Argentina Reconstructed Bringback",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "6bbe85e3-9743-4c44-9b04-46c98c9b2b8c",
+        "slug": "nike-sb-hoodie-de-skateboard-de-la-cardada-com-fecho-completo-nike-fz8796-010",
+        "name": "Nike SB - Hoodie de skateboard de lã cardada com fecho completo",
+        "brand": "Nike",
+        "sport": "Skate",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 479.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "e0ae9b9f-a067-4a5a-9c2c-cc5e1be6aa47",
+    "userId": "3fc27987-0044-4e7c-978f-65389a156927",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.151Z",
+    "items": [
+      {
+        "productId": "acbfa7ab-ce2c-42a1-9608-3bb19c83c57b",
+        "slug": "nike-sb-casaco-de-treino-em-ganga-com-fecho-completo-nike-ih1988-085",
+        "name": "Nike SB - Casaco de treino em ganga com fecho completo",
+        "brand": "Nike",
+        "sport": "Skate",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 719.94,
+        "quantity": 2
+      },
+      {
+        "productId": "0515e9f5-27ae-4d16-a01f-6be3c57708b4",
+        "slug": "inter-de-milao-casaco-de-futebol-com-capuz-e-enchimento-sintetico-nike-junior-nike-hv9971-010",
+        "name": "Inter de Milão - Casaco de futebol com capuz e enchimento sintético Nike Júnior",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 569.94,
+        "quantity": 2
+      },
+      {
+        "productId": "9e6ae59a-6c8e-43ef-b9ae-4421c1cba05e",
+        "slug": "agasalho-dayready-adidas-jx5501",
+        "name": "Agasalho Dayready",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "a7385be2-af8d-41e9-a345-835a5a4749bb",
+        "slug": "nike-tech-calcoes-entrancados-para-homem-nike-ib8957-010",
+        "name": "Nike Tech - Calções entrançados para homem",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "660b6354-d78f-4a3c-b17b-42d2a14e9a63",
+    "userId": "4f2bb94b-9c2d-4ef3-ae44-4f84b78dc7e9",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.153Z",
+    "items": [
+      {
+        "productId": "c77324c1-76ae-4d40-bbed-99b7c03abaa3",
+        "slug": "nike-aeroswift-camisola-de-running-de-manga-curta-dri-fit-adv-para-homem-nike-hj3377-491",
+        "name": "Nike AeroSwift - Camisola de running de manga curta Dri-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 2
+      },
+      {
+        "productId": "14973bb1-4d0c-4a04-b2c3-50677be5bda3",
+        "slug": "camiseta-train-essentials-tres-listras-adidas-ks7727",
+        "name": "Camiseta Train Essentials Três Listras",
+        "brand": "Adidas",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "330cc9d9-a207-4913-895d-dcf8b1250157",
+        "slug": "nike-acg-trailwind-calcas-impermeaveis-storm-fit-adv-para-homem-nike-io9697-010",
+        "name": "Nike ACG \"Trailwind\" - Calças impermeáveis Storm-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 839.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "6f5bbb84-2eee-41fc-8800-4be738570fa1",
+    "userId": "4f2bb94b-9c2d-4ef3-ae44-4f84b78dc7e9",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.156Z",
+    "items": [
+      {
+        "productId": "5825b332-b820-4ba6-b22f-3a45977a16ec",
+        "slug": "jordan-sport-sweatshirt-de-gola-redonda-com-grafismo-dri-fit-para-homem-jordan-if0855-010",
+        "name": "Jordan Sport - Sweatshirt de gola redonda com grafismo Dri-FIT para homem",
+        "brand": "Jordan",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 1
+      },
+      {
+        "productId": "775d051d-7484-4041-80c1-972bfc07d56b",
+        "slug": "equipamento-alternativo-stadium-springboks-2025-26-camisola-de-raguebi-nike-replica-do-equipamento-alternativo-para-homem-nike-ib6780-100",
+        "name": "Equipamento alternativo Stadium Springboks 2025/26 - Camisola de râguebi Nike Replica do equipamento alternativo para homem",
+        "brand": "Nike",
+        "sport": "Rugby",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 599.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "34f1df4f-8acc-455a-ba3d-16d78fa0bba2",
+    "userId": "9087997e-f380-40ca-b4de-f7956886ec72",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.159Z",
+    "items": [
+      {
+        "productId": "6bdf3df8-14fa-46d4-8aad-2503dc925451",
+        "slug": "agasalho-adidas-linear-adidas-jn1808",
+        "name": "Agasalho adidas Linear",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 2
+      },
+      {
+        "productId": "edc5cc6c-0e18-4379-9a02-325128a60584",
+        "slug": "nike-sportswear-club-fleece-calcas-desportivas-junior-nike-hv0393-619",
+        "name": "Nike Sportswear Club Fleece - Calças desportivas Júnior",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 299.94,
+        "quantity": 2
+      },
+      {
+        "productId": "3e95cc3e-39b2-4a50-bd11-20cc1e1dde13",
+        "slug": "conjunto-shorts-essentials-linear-adidas-kb8463",
+        "name": "Conjunto Shorts Essentials Linear",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 589.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "d8d34964-421a-4eaf-ae01-01389b7980fe",
+    "userId": "9087997e-f380-40ca-b4de-f7956886ec72",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.161Z",
+    "items": [
+      {
+        "productId": "84f186c3-640b-4e42-a4fa-2fae0466bdc6",
+        "slug": "nike-acg-smith-summit-calcas-junior-nike-if1709-010",
+        "name": "Nike ACG \"Smith Summit\" - Calças Júnior",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 1
+      },
+      {
+        "productId": "1716cdc2-b021-4e30-a8f5-d813e4f83427",
+        "slug": "camisa-i-da-selecao-venezuelana-26-adidas-kb3723",
+        "name": "Camisa I da Seleção Venezuelana 26",
+        "brand": "Adidas",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 499.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "29025907-4d8e-4422-96b6-d46440b4c251",
+    "userId": "9087997e-f380-40ca-b4de-f7956886ec72",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.163Z",
+    "items": [
+      {
+        "productId": "fa34c5a4-356c-4a3b-825a-4fdfd9d4a691",
+        "slug": "kobe-hoodie-pullover-de-basquetebol-em-la-cardada-dri-fit-para-homem-nike-iq0949-100",
+        "name": "Kobe - Hoodie pullover de basquetebol em lã cardada Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Basquete",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.94,
+        "quantity": 2
+      },
+      {
+        "productId": "ea0d648d-7251-49d5-bf40-c5aba786a95f",
+        "slug": "calca-esportiva-selecao-argentina-2006-adidas-jz6200",
+        "name": "Calça Esportiva Seleção Argentina 2006",
+        "brand": "Adidas",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 539.99,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "fb79abb4-3f9f-4b7d-98d8-8a57c7e6b19e",
+    "userId": "c2abe9ea-040a-4950-bf70-0e6388cdc5ef",
+    "status": "SHIPPED",
+    "createdAt": "2026-10-20T23:08:04.165Z",
+    "items": [
+      {
+        "productId": "6308436a-9ee6-4e27-8357-7d2a14669140",
+        "slug": "nike-acg-hoodie-pullover-junior-nike-if1710-010",
+        "name": "Nike ACG - Hoodie pullover Júnior",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 2
+      },
+      {
+        "productId": "34b39aa8-2d03-4e8f-ac78-5fedaab2769b",
+        "slug": "nike-par-polo-de-golfe-dri-fit-para-homem-nike-ib0218-419",
+        "name": "Nike Par - Polo de golfe Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 2
+      },
+      {
+        "productId": "ca2b4eb3-3758-41f1-9048-abecb15edef2",
+        "slug": "regata-adi365-running-essentials-adidas-ka0257",
+        "name": "Regata adi365 Running Essentials",
+        "brand": "Adidas",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "415dfa1c-67a0-49af-8120-1e341f717054",
+    "userId": "c2abe9ea-040a-4950-bf70-0e6388cdc5ef",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.168Z",
+    "items": [
+      {
+        "productId": "dd80838f-fb2c-40f8-bbb3-9d6a3c64c7e4",
+        "slug": "moletom-capuz-tres-listras-adidas-ke6678",
+        "name": "Moletom Capuz Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 529.99,
+        "quantity": 1
+      },
+      {
+        "productId": "67d7a7bb-b57a-4aab-ae1f-f9e40ffe8ae2",
+        "slug": "springboks-camisola-de-treino-de-raguebi-com-fecho-a-1-4-nike-para-homem-nike-ib6771-330",
+        "name": "Springboks - Camisola de treino de râguebi com fecho a 1/4 Nike para homem",
+        "brand": "Nike",
+        "sport": "Rugby",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "7351bab0-a69f-4fac-9f75-6fef19ba7308",
+    "userId": "0c6eaa81-1c5e-42a0-9c62-4c9c4e438cdb",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.170Z",
+    "items": [
+      {
+        "productId": "83a4dd5d-36db-4da1-a79a-b10de45e2c1a",
+        "slug": "nike-acg-tuff-fleece-hoodie-pullover-nike-dz3392-011",
+        "name": "Nike ACG \"Tuff Fleece\" - Hoodie pullover",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 689.94,
+        "quantity": 1
+      },
+      {
+        "productId": "aa09cf09-b0fe-47c5-833b-5d14694db58d",
+        "slug": "agasalho-aeroready-sereno-cut-tres-listras-adidas-iw5977",
+        "name": "Agasalho AEROREADY Sereno Cut Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "eeda4838-94ac-4552-a74a-8ce2e3583a6e",
+        "slug": "strike-night-edition-paris-saint-germain-camisola-de-treino-de-futebol-de-malha-jordan-dri-fit-para-homem-jordan-io4834-100",
+        "name": "Strike Night Edition Paris Saint-Germain - Camisola de treino de futebol de malha Jordan Dri-FIT para homem",
+        "brand": "Jordan",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "b68545ca-f880-4372-8491-305872767009",
+    "userId": "0c6eaa81-1c5e-42a0-9c62-4c9c4e438cdb",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.172Z",
+    "items": [
+      {
+        "productId": "5bd7d237-53f2-4916-aa53-181e9c22f570",
+        "slug": "nike-pro-calcoes-de-la-cardada-dri-fit-junior-rapaz-nike-io1466-010",
+        "name": "Nike Pro - Calções de lã cardada Dri-FIT Júnior (Rapaz)",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 2
+      },
+      {
+        "productId": "ca2b4eb3-3758-41f1-9048-abecb15edef2",
+        "slug": "regata-adi365-running-essentials-adidas-ka0257",
+        "name": "Regata adi365 Running Essentials",
+        "brand": "Adidas",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.99,
+        "quantity": 1
+      },
+      {
+        "productId": "8dbb18a1-8901-4717-8040-8441d501c3b1",
+        "slug": "camiseta-adidas-para-bad-bunny-sao-paulo-adidas-kw8059",
+        "name": "Camiseta Adidas para Bad Bunny São Paulo",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "84db5d61-d704-4664-aa10-0c7226a665ba",
+    "userId": "0c6eaa81-1c5e-42a0-9c62-4c9c4e438cdb",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.175Z",
+    "items": [
+      {
+        "productId": "65bfd216-3b0b-48fe-aff2-3b610585e799",
+        "slug": "nike-acg-t-shirt-dri-fit-para-homem-nike-ih1304-010",
+        "name": "Nike ACG - T-shirt Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 299.94,
+        "quantity": 1
+      },
+      {
+        "productId": "5dac3702-bb52-4ae5-b290-315799a3c1de",
+        "slug": "nike-sportswear-shox-t-shirt-para-homem-nike-ih0526-010",
+        "name": "Nike Sportswear Shox - T-shirt para homem",
+        "brand": "Nike",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 299.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "7f013613-f949-4793-add6-162521b2f1e9",
+    "userId": "8e249354-2dc8-415b-8d97-5317ee329ad3",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.178Z",
+    "items": [
+      {
+        "productId": "8c65f68a-8f06-466f-8597-ab47c3785ff6",
+        "slug": "nikeskims-matte-sutia-com-microdecote-para-mulher-nike-iu8284-054",
+        "name": "NikeSKIMS Matte - Sutiã com microdecote para mulher",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 2
+      },
+      {
+        "productId": "4a0e14aa-b4ae-4d12-b4e7-bfba46d06398",
+        "slug": "nike-aeroswift-casaco-de-running-storm-fit-aerogami-para-homem-nike-fz9039-010",
+        "name": "Nike AeroSwift - Casaco de running Storm-FIT Aerogami para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 1349.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "c6cd43fb-082b-40da-85b6-22fe32530e17",
+    "userId": "8e249354-2dc8-415b-8d97-5317ee329ad3",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.180Z",
+    "items": [
+      {
+        "productId": "a9e2a5ee-482f-4774-a647-b360abb08964",
+        "slug": "los-angeles-rams-primetime-club-logo-hoodie-pullover-nike-nfl-para-homem-nike-io9000-417",
+        "name": "Los Angeles Rams Primetime Club Logo - Hoodie pullover Nike NFL para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 2
+      },
+      {
+        "productId": "916da7d9-b884-4be5-8263-520b68be822b",
+        "slug": "agasalho-dayready-adidas-ji8859",
+        "name": "Agasalho Dayready",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 369.99,
+        "quantity": 1
+      },
+      {
+        "productId": "e5948387-00ca-4a02-bc86-b9c9bce80e2f",
+        "slug": "nikecourt-heritage-t-shirt-para-homem-nike-ih2085-663",
+        "name": "NikeCourt Heritage - T-shirt para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 209.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "fe0b3815-b02a-4ae2-8961-01f3cbd54f06",
+    "userId": "054129bb-1b03-4906-8eb2-e31b8788fd15",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.182Z",
+    "items": [
+      {
+        "productId": "a4c596d1-bab8-41d9-b3a1-c792117405f7",
+        "slug": "camiseta-argentina-reconstructed-bringback-adidas-ke2289",
+        "name": "Camiseta Argentina Reconstructed Bringback",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 229.99,
+        "quantity": 1
+      },
+      {
+        "productId": "aece294c-dbde-4154-9ba7-9eefc1acf9ec",
+        "slug": "nike-pro-camisola-de-manga-comprida-com-fecho-ate-meio-therma-fit-junior-rapariga-nike-hv0296-540",
+        "name": "Nike Pro - Camisola de manga comprida com fecho até meio Therma-FIT Júnior (Rapariga)",
+        "brand": "Nike",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 299.94,
+        "quantity": 1
+      },
+      {
+        "productId": "008bd68d-fe1f-4e07-8349-cb4248e00b3b",
+        "slug": "nike-par-polo-de-golfe-de-manga-curta-dri-fit-para-homem-nike-ib0227-100",
+        "name": "Nike Par - Polo de golfe de manga curta Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Golfe",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 2
+      },
+      {
+        "productId": "b51d5950-2e4e-4e9b-a3a2-495bd109fd4e",
+        "slug": "nike-acg-wolf-tree-colete-estampado-nike-hv1121-060",
+        "name": "Nike ACG \"Wolf Tree\" - Colete estampado",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 659.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "45e40fb8-fbd8-4204-add2-b2a378eaabe0",
+    "userId": "054129bb-1b03-4906-8eb2-e31b8788fd15",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.184Z",
+    "items": [
+      {
+        "productId": "11167e13-5c0f-4043-8cf2-e698ef2bb5fc",
+        "slug": "standard-issue-atletico-de-madrid-calcas-de-futebol-afuniladas-nike-dri-fit-para-homem-nike-hq1548-480",
+        "name": "Standard Issue Atlético de Madrid - Calças de futebol afuniladas Nike Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 509.94,
+        "quantity": 2
+      },
+      {
+        "productId": "1e4dbe7d-e6a2-438d-9be4-bd613621d40d",
+        "slug": "nike-acg-lunar-lake-primaloft-casaco-folgado-com-capuz-therma-fit-adv-para-homem-nike-fv8909-010",
+        "name": "Nike ACG \"Lunar Lake\" PrimaLoft® - Casaco folgado com capuz Therma-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 2099.94,
+        "quantity": 2
+      },
+      {
+        "productId": "632eaba7-c32a-47db-9577-eeb4c4ae9ec1",
+        "slug": "jordan-flight-fleece-calcoes-diamond-para-homem-jordan-fv7257-392",
+        "name": "Jordan Flight Fleece - Calções Diamond para homem",
+        "brand": "Jordan",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 419.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "d12faeed-f8eb-471f-9ff9-f215c589f103",
+    "userId": "054129bb-1b03-4906-8eb2-e31b8788fd15",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.186Z",
+    "items": [
+      {
+        "productId": "158178a2-ba59-43c4-a9ce-ce3212c0412c",
+        "slug": "equipamento-alternativo-do-fc-barcelona-calcas-de-futebol-kobe-therma-fit-nike-hq9616-010",
+        "name": "Equipamento alternativo do FC Barcelona - Calças de futebol Kobe Therma-FIT",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 509.94,
+        "quantity": 1
+      },
+      {
+        "productId": "c4be2a01-b0bc-4b20-b972-4b42c83f69ea",
+        "slug": "conjunto-shorts-essentials-linear-adidas-jd5432",
+        "name": "Conjunto Shorts Essentials Linear",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 589.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "d16a93c5-07b5-4f72-9cb9-acdfca16a13a",
+    "userId": "054129bb-1b03-4906-8eb2-e31b8788fd15",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.188Z",
+    "items": [
+      {
+        "productId": "ec61cd84-5888-4639-8a2f-918764454407",
+        "slug": "nikecourt-t-shirt-de-tenis-dri-fit-para-homem-nike-ih2087-475",
+        "name": "NikeCourt - T-shirt de ténis Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 239.94,
+        "quantity": 1
+      },
+      {
+        "productId": "fd4d5a7c-6331-4a32-be6d-064f888356c3",
+        "slug": "nikecourt-heritage-casaco-de-tenis-para-homem-nike-fz6925-360",
+        "name": "NikeCourt Heritage - Casaco de ténis para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 479.94,
+        "quantity": 2
+      },
+      {
+        "productId": "24d811bd-aaad-45bc-906a-cd901c010de9",
+        "slug": "nike-mercurial-lite-kylian-mbappe-caneleiras-de-futebol-nike-io9401-271",
+        "name": "Nike Mercurial Lite \"Kylian Mbappé\" - Caneleiras de futebol",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 209.94,
+        "quantity": 2
+      },
+      {
+        "productId": "2f85887c-4a81-4325-9a3e-5b91a60c7fca",
+        "slug": "zion-williamson-new-orleans-pelicans-2023-24-statement-edition-camisola-nba-swingman-jordan-dri-fit-junior-jordan-fz0830-657",
+        "name": "Zion Williamson New Orleans Pelicans 2023/24 Statement Edition - Camisola NBA Swingman Jordan Dri-FIT Júnior",
+        "brand": "Jordan",
+        "sport": "Basquete",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 509.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "c08768ac-911d-4764-aeb2-378073345829",
+    "userId": "23a37121-7869-4624-90d2-2df815a56fc4",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.190Z",
+    "items": [
+      {
+        "productId": "98318404-73c8-4b9c-9bf7-932653cc47a4",
+        "slug": "club-chelsea-fc-calcas-desportivas-de-futebol-em-la-cardada-nike-para-homem-nike-hv0492-451",
+        "name": "Club Chelsea FC - Calças desportivas de futebol em lã cardada Nike para homem",
+        "brand": "Nike",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 359.94,
+        "quantity": 1
+      },
+      {
+        "productId": "2b5b267a-038a-4103-85a4-ba0fcbd9d56f",
+        "slug": "nike-icon-calcoes-de-basquetebol-dri-fit-de-20-cm-para-homem-nike-dv9524-023",
+        "name": "Nike Icon - Calções de basquetebol Dri-FIT de 20 cm para homem",
+        "brand": "Nike",
+        "sport": "Basquete",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 209.94,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "orderId": "484e9b52-0cc9-4940-a434-1c5052b86957",
+    "userId": "23a37121-7869-4624-90d2-2df815a56fc4",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.193Z",
+    "items": [
+      {
+        "productId": "dfd64b57-4631-4508-a09a-10aec093ea79",
+        "slug": "nike-retro-t-shirt-de-corrida-dri-fit-para-homem-nike-ih4414-100",
+        "name": "Nike Retro - T-shirt de corrida Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 209.94,
+        "quantity": 1
+      },
+      {
+        "productId": "ca9e3517-0a76-43b4-b6b7-252309630df3",
+        "slug": "corda-de-pular-pro",
+        "name": "Corda de Pular Pro",
+        "brand": "IronGym",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 49.9,
+        "quantity": 1
+      },
+      {
+        "productId": "0bca70bc-60ba-4016-a166-7a0eced10b62",
+        "slug": "nike-trailwind-calcas-de-running-impermeaveis-storm-fit-adv-para-homem-nike-hv2159-010",
+        "name": "Nike Trailwind - Calças de running impermeáveis Storm-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 779.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "89303782-25f7-4ffc-a696-0887cbe00006",
+    "userId": "23a37121-7869-4624-90d2-2df815a56fc4",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.195Z",
+    "items": [
+      {
+        "productId": "5ab1e341-4879-43d2-a9da-d379e0bb90dc",
+        "slug": "nike-unlimited-calcas-versateis-com-punho-com-fecho-dri-fit-para-homem-nike-fb7548-084",
+        "name": "Nike Unlimited - Calças versáteis com punho com fecho Dri-FIT para homem",
+        "brand": "Nike",
+        "sport": "Tênis",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 449.94,
+        "quantity": 1
+      },
+      {
+        "productId": "bb3203c3-4236-4dfa-bfed-0b6f9d04cfce",
+        "slug": "equipamento-principal-stadium-springboks-2025-26-camisola-de-raguebi-nike-replica-do-equipamento-principal-junior-nike-ib6872-330",
+        "name": "Equipamento principal Stadium Springboks 2025/26 - Camisola de râguebi Nike Replica do equipamento principal Júnior",
+        "brand": "Nike",
+        "sport": "Rugby",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 479.94,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "72fbc669-0a65-468a-aacc-815c74d16150",
+    "userId": "23a37121-7869-4624-90d2-2df815a56fc4",
+    "status": "PAID",
+    "createdAt": "2026-10-20T23:08:04.197Z",
+    "items": [
+      {
+        "productId": "5a115242-f1e1-48d3-8a65-e6f35f8c7c52",
+        "slug": "nike-acg-trailwind-calcoes-de-8-cm-forrados-com-slips-dri-fit-adv-para-homem-nike-io9693-511",
+        "name": "Nike ACG \"Trailwind\" - Calções de 8 cm forrados com slips Dri-FIT ADV para homem",
+        "brand": "Nike",
+        "sport": "Outdoor",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 479.94,
+        "quantity": 1
+      },
+      {
+        "productId": "55e7f8f2-bf1b-4ea0-9b3d-4bd355e7f876",
+        "slug": "top-tubo-tres-listras-adidas-kq6650",
+        "name": "Top Tubo Três Listras",
+        "brand": "Adidas",
+        "sport": "Lifestyle",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 149.99,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "b87bf1e4-4d80-4a59-a028-31e04ce38eb8",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.200Z",
+    "items": [
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1b68d74b-e307-4ab9-b832-d7c7a6c7a01c",
+        "slug": "tenis-trail-grip-max",
+        "name": "Tênis Trail Grip Max",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 459.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "9fdff5ee-2e1c-4b09-b110-c64f7115e223",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.202Z",
+    "items": [
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1b68d74b-e307-4ab9-b832-d7c7a6c7a01c",
+        "slug": "tenis-trail-grip-max",
+        "name": "Tênis Trail Grip Max",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 459.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "f529cbaf-0df3-4296-964a-eab554723f83",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.204Z",
+    "items": [
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1b68d74b-e307-4ab9-b832-d7c7a6c7a01c",
+        "slug": "tenis-trail-grip-max",
+        "name": "Tênis Trail Grip Max",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 459.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "9c8eb753-e02f-4225-9f17-1f19906c25ed",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.206Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "b7c8d7b7-b4e4-4680-8dbe-92f9a27d8107",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.209Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "2646b4da-7096-4aed-8db3-70ac4be1ac92",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.211Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "1c107cb9-41aa-4ba6-a451-bd6a34505736",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.215Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "8672935e-7809-4682-b8e7-669d8e46598f",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.217Z",
+    "items": [
+      {
+        "productId": "4beb217c-b1d5-4883-adfb-a874e912a27a",
+        "slug": "bola-oficial-campo",
+        "name": "Bola Oficial Campo",
+        "brand": "GoalMax",
+        "sport": "Futebol",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 189.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "8a7ff92c-2500-434c-b035-0c96c85cf0f5",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.219Z",
+    "items": [
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      },
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1686abd8-73af-4dfe-bc87-2be902e6b807",
+        "slug": "legging-compression-pro",
+        "name": "Legging Compression Pro",
+        "brand": "FlexFit",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "853ea552-154e-4c9b-80b6-a767c49f743c",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.221Z",
+    "items": [
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      },
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1686abd8-73af-4dfe-bc87-2be902e6b807",
+        "slug": "legging-compression-pro",
+        "name": "Legging Compression Pro",
+        "brand": "FlexFit",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "75307b28-92b4-4d85-8892-9672744e4d21",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.225Z",
+    "items": [
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      },
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1686abd8-73af-4dfe-bc87-2be902e6b807",
+        "slug": "legging-compression-pro",
+        "name": "Legging Compression Pro",
+        "brand": "FlexFit",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "85e11ad7-2ff2-420f-8f1d-95eaeb1ed383",
+    "userId": "1a260a96-8fd0-4c91-955f-a19902b4715d",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.227Z",
+    "items": [
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      },
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1686abd8-73af-4dfe-bc87-2be902e6b807",
+        "slug": "legging-compression-pro",
+        "name": "Legging Compression Pro",
+        "brand": "FlexFit",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "92e09d2b-5edd-474a-9fe1-796943465dc2",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.229Z",
+    "items": [
+      {
+        "productId": "b4cff28b-e9c2-43c7-bacc-bf3e27039928",
+        "slug": "meia-compressao-pack-3",
+        "name": "Meia Compressão Pack 3",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 69.9,
+        "quantity": 1
+      },
+      {
+        "productId": "8df1ed71-0a16-4495-9a8a-6cf98f51c577",
+        "slug": "camisa-running-breath",
+        "name": "Camisa Running Breath",
+        "brand": "ArenaRun",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 119.9,
+        "quantity": 1
+      },
+      {
+        "productId": "1686abd8-73af-4dfe-bc87-2be902e6b807",
+        "slug": "legging-compression-pro",
+        "name": "Legging Compression Pro",
+        "brand": "FlexFit",
+        "sport": "Corrida",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 159.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "0b829d2f-b207-4801-9c55-fff341ccd693",
+    "userId": "defc0c3b-4b04-4bcd-8644-feeba1684167",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.232Z",
+    "items": [
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      },
+      {
+        "productId": "327486bc-501e-45c8-9d03-a3199b61d896",
+        "slug": "shorts-training-flex",
+        "name": "Shorts Training Flex",
+        "brand": "ArenaRun",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 99.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "3fe740cb-25ad-4712-b710-ef8ded0a716f",
+    "userId": "7faa2c09-824e-43a2-8eb1-7eced8d4c5d0",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.234Z",
+    "items": [
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      },
+      {
+        "productId": "327486bc-501e-45c8-9d03-a3199b61d896",
+        "slug": "shorts-training-flex",
+        "name": "Shorts Training Flex",
+        "brand": "ArenaRun",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 99.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "9d512ebd-cdde-4222-ad63-42791e7540ab",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.237Z",
+    "items": [
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      },
+      {
+        "productId": "327486bc-501e-45c8-9d03-a3199b61d896",
+        "slug": "shorts-training-flex",
+        "name": "Shorts Training Flex",
+        "brand": "ArenaRun",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 99.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "bab27e1f-eb0d-417b-94c6-658aa399926d",
+    "userId": "a209c37f-0310-418f-840f-c8d7e0e1b52a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.239Z",
+    "items": [
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      },
+      {
+        "productId": "327486bc-501e-45c8-9d03-a3199b61d896",
+        "slug": "shorts-training-flex",
+        "name": "Shorts Training Flex",
+        "brand": "ArenaRun",
+        "sport": "Treino",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 99.9,
+        "quantity": 1
+      },
+      {
+        "productId": "c382b8bc-2f84-481b-a96c-2ab231499243",
+        "slug": "mochila-training-30l",
+        "name": "Mochila Training 30L",
+        "brand": "CarryFit",
+        "sport": "Treino",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 219.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "6ab585ba-5092-463f-bf15-7632e1a5d94c",
+    "userId": "a8be5f74-ae55-40ab-bd57-1e3a80a1cefe",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.242Z",
+    "items": [
+      {
+        "productId": "b005a15c-1d93-4e3b-888c-68f3ecab6fc0",
+        "slug": "tenis-basketball-elevate",
+        "name": "Tênis Basketball Elevate",
+        "brand": "JumpPro",
+        "sport": "Basquete",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 489.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "4bcd2d48-ea74-47a9-9c44-0a95e39bd26e",
+        "slug": "bone-dry-performance",
+        "name": "Boné Dry Performance",
+        "brand": "SunSport",
+        "sport": "Geral",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 59.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "4617df1d-e216-4df8-889a-a17fc652a8d0",
+    "userId": "dc2a5de1-c44c-40be-a586-bce26b1b230a",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.245Z",
+    "items": [
+      {
+        "productId": "b005a15c-1d93-4e3b-888c-68f3ecab6fc0",
+        "slug": "tenis-basketball-elevate",
+        "name": "Tênis Basketball Elevate",
+        "brand": "JumpPro",
+        "sport": "Basquete",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 489.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "4bcd2d48-ea74-47a9-9c44-0a95e39bd26e",
+        "slug": "bone-dry-performance",
+        "name": "Boné Dry Performance",
+        "brand": "SunSport",
+        "sport": "Geral",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 59.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "700c750b-eac6-4d17-a84f-538765a30d0e",
+    "userId": "80b5c81c-5394-4075-a2c5-8684f912ff97",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.247Z",
+    "items": [
+      {
+        "productId": "b005a15c-1d93-4e3b-888c-68f3ecab6fc0",
+        "slug": "tenis-basketball-elevate",
+        "name": "Tênis Basketball Elevate",
+        "brand": "JumpPro",
+        "sport": "Basquete",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 489.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "4bcd2d48-ea74-47a9-9c44-0a95e39bd26e",
+        "slug": "bone-dry-performance",
+        "name": "Boné Dry Performance",
+        "brand": "SunSport",
+        "sport": "Geral",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 59.9,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": "0519486c-e30c-446b-ad2e-057314944e0a",
+    "userId": "305b4e20-9e7d-4f75-9455-bf8b8655c42f",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-20T23:08:04.249Z",
+    "items": [
+      {
+        "productId": "b005a15c-1d93-4e3b-888c-68f3ecab6fc0",
+        "slug": "tenis-basketball-elevate",
+        "name": "Tênis Basketball Elevate",
+        "brand": "JumpPro",
+        "sport": "Basquete",
+        "category": "Calçados",
+        "categoryId": "41c855f4-4880-4dc1-bb04-d6726c17a53c",
+        "price": 489.9,
+        "quantity": 1
+      },
+      {
+        "productId": "b2d35a09-bdd0-45f3-9e26-c02602cb24c6",
+        "slug": "camisa-futebol-dry-fit",
+        "name": "Camisa Futebol Dry-Fit",
+        "brand": "KickSport",
+        "sport": "Futebol",
+        "category": "Camisetas",
+        "categoryId": "aa197fc8-95d7-4944-bb0b-a21d7327591c",
+        "price": 129.9,
+        "quantity": 1
+      },
+      {
+        "productId": "4bcd2d48-ea74-47a9-9c44-0a95e39bd26e",
+        "slug": "bone-dry-performance",
+        "name": "Boné Dry Performance",
+        "brand": "SunSport",
+        "sport": "Geral",
+        "category": "Acessórios",
+        "categoryId": "1a86b873-b41b-4893-8a57-c2caf16cadc7",
+        "price": 59.9,
+        "quantity": 1
+      }
+    ]
+  }
+]

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { ShoppingBag, Package, LogOut, Home, PlusCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuthStore } from "@/store/auth";
+import { useCartProductIds } from "@/hooks/use-cart-ids";
 import { CategoryMenu, type NavLink } from "./category-menu";
 
 const links: NavLink[] = [
@@ -17,6 +18,7 @@ const links: NavLink[] = [
 export function Header() {
   const pathname = usePathname();
   const { user, logout, accessToken } = useAuthStore();
+  const { itemCount } = useCartProductIds();
 
   return (
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-border">
@@ -38,19 +40,31 @@ export function Header() {
           {links.map((l) => {
             const Icon = l.icon;
             const active = pathname === l.href;
+            const isCart = l.href === "/cart";
             return (
               <Link
                 key={l.href}
                 href={l.href}
                 className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium transition",
+                  "relative flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium transition",
                   active
                     ? "bg-brand-50 text-brand-700"
-                    : "text-slate-600 hover:bg-slate-50"
+                    : "text-slate-600 hover:bg-slate-50",
+                  isCart && itemCount > 0 && !active && "text-brand-700"
                 )}
               >
-                <Icon className="w-4 h-4" />
+                <Icon
+                  className={cn(
+                    "w-4 h-4 transition-transform",
+                    isCart && itemCount > 0 && "scale-110"
+                  )}
+                />
                 {l.label}
+                {isCart && itemCount > 0 && (
+                  <span className="ml-0.5 min-w-5 h-5 px-1 rounded-full bg-brand-600 text-white text-[11px] font-bold inline-flex items-center justify-center">
+                    {itemCount > 99 ? "99+" : itemCount}
+                  </span>
+                )}
               </Link>
             );
           })}

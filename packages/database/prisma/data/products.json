@@ -40,7 +40,7 @@
     "sport": "Futebol",
     "stock": 15,
     "imageUrl": "https://images.unsplash.com/photo-1614632537190-23e4146777db?w=900&h=900&fit=crop&q=80",
-    "category": "Bolas",
+    "category": "Acessórios",
     "active": true,
     "slug": "bola-oficial-campo"
   },
@@ -50,7 +50,7 @@
     "description": "Garrafa térmica em aço inox, mantém temperatura por até 12h.",
     "price": 79.9,
     "compareAt": null,
-    "size": null,
+    "size": "P, M, G",
     "color": "Azul",
     "sport": "Geral",
     "stock": 60,
@@ -70,7 +70,7 @@
     "sport": "Musculação",
     "stock": 20,
     "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=900&h=900&fit=crop&q=80",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "halteres-5kg-par"
   },
@@ -175,7 +175,7 @@
     "sport": "Basquete",
     "stock": 22,
     "imageUrl": "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=900&h=900&fit=crop&q=80",
-    "category": "Bolas",
+    "category": "Acessórios",
     "active": true,
     "slug": "bola-basquete-indoor"
   },
@@ -190,7 +190,7 @@
     "sport": "Vôlei",
     "stock": 20,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Volleyball_Mikasa_2006.jpg/960px-Volleyball_Mikasa_2006.jpg",
-    "category": "Bolas",
+    "category": "Acessórios",
     "active": true,
     "slug": "bola-volei-soft-touch"
   },
@@ -200,7 +200,7 @@
     "description": "Mochila esportiva com compartimento para notebook e bolso lateral.",
     "price": 219.9,
     "compareAt": null,
-    "size": null,
+    "size": "P, M, G",
     "color": "Preto",
     "sport": "Treino",
     "stock": 24,
@@ -250,7 +250,7 @@
     "sport": "Musculação",
     "stock": 12,
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/12_KG_kettlebell_at_Results_Gym.jpg/960px-12_KG_kettlebell_at_Results_Gym.jpg",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "kettlebell-12kg"
   },
@@ -260,12 +260,12 @@
     "description": "Colchonete antiderrapante de 10mm para yoga e pilates.",
     "price": 129.9,
     "compareAt": null,
-    "size": null,
+    "size": "P, M, G",
     "color": "Roxo",
     "sport": "Yoga",
     "stock": 30,
     "imageUrl": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=900&h=900&fit=crop&q=80",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "colchonete-yoga-premium"
   },
@@ -275,12 +275,12 @@
     "description": "Corda com cabo de aço revestido e ajuste rápido de comprimento.",
     "price": 49.9,
     "compareAt": null,
-    "size": null,
+    "size": "P, M, G",
     "color": "Preto/Vermelho",
     "sport": "Treino",
     "stock": 55,
     "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=900&h=900&fit=crop&q=80",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "corda-de-pular-pro"
   },
@@ -290,12 +290,12 @@
     "description": "Kit com cinco faixas elásticas de resistências diferentes.",
     "price": 89.9,
     "compareAt": null,
-    "size": null,
+    "size": "P, M, G",
     "color": "Multicolor",
     "sport": "Treino",
     "stock": 38,
     "imageUrl": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=900&h=900&fit=crop&q=80",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "faixa-elastica-kit-5"
   },
@@ -340,7 +340,7 @@
     "sport": "Futebol",
     "stock": 18,
     "imageUrl": "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=900&h=900&fit=crop&q=80",
-    "category": "Bolas",
+    "category": "Acessórios",
     "active": true,
     "slug": "bola-futsal-pro"
   },
@@ -365,12 +365,12 @@
     "description": "Raquete leve com ótimo controle de bola para intermediários.",
     "price": 399.9,
     "compareAt": null,
-    "size": null,
+    "size": "40",
     "color": "Preto/Amarelo",
     "sport": "Tênis",
     "stock": 10,
     "imageUrl": "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=900&h=900&fit=crop&q=80",
-    "category": "Equipamentos",
+    "category": "Calçados",
     "active": true,
     "slug": "raquete-tenis-control"
   },
@@ -2970,9 +2970,9 @@
     "slug": "nike-stride-tights-de-running-dri-fit-para-homem-nike-if2052-010"
   },
   {
-    "name": "Nike Sportswear - Casaco entrançado Júnior (Rapariga)",
+    "name": "Nike Sportswear - Casaco entrançado Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Casaco entrançado Júnior (Rapariga) Nike (infantil).",
+    "description": "Casaco entrançado Júnior (Mulher) Nike (infantil).",
     "price": 419.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3030,9 +3030,9 @@
     "slug": "nike-fairway-fresh-polo-de-golfe-de-manga-comprida-dri-fit-para-homem-nike-ii0772-006"
   },
   {
-    "name": "Nike Sportswear - Casaco de treino com fecho a 1/4 para rapariga",
+    "name": "Nike Sportswear - Casaco de treino com fecho a 1/4 para mulher",
     "brand": "Nike",
-    "description": "Casaco de treino com fecho a 1/4 para rapariga Nike (infantil).",
+    "description": "Casaco de treino com fecho a 1/4 para mulher Nike (infantil).",
     "price": 389.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3115,7 +3115,7 @@
     "sport": "Treino",
     "stock": 43,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d056c13c-5c46-4225-8cb0-34fa81b5d991/luvas-de-treino-nike-alpha-elite-HW6dMh.png",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-alpha-elite-luvas-de-treino-nike-hm7040-091"
   },
@@ -3165,9 +3165,9 @@
     "slug": "nike-hoodie-de-treino-de-inverno-therma-fit-junior-nike-fz5323-010"
   },
   {
-    "name": "Nike One - Macacão Dri-FIT Júnior (Rapariga)",
+    "name": "Nike One - Macacão Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Macacão Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Macacão Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 269.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3345,9 +3345,9 @@
     "slug": "nike-stride-calcas-de-running-em-malha-dri-fit-para-homem-nike-hv4546-010"
   },
   {
-    "name": "Nike Sportswear - Casaco entrançado para rapariga",
+    "name": "Nike Sportswear - Casaco entrançado para mulher",
     "brand": "Nike",
-    "description": "Casaco entrançado para rapariga Nike (infantil).",
+    "description": "Casaco entrançado para mulher Nike (infantil).",
     "price": 449.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3525,9 +3525,9 @@
     "slug": "nike-pro-calcoes-de-la-cardada-dri-fit-junior-rapaz-nike-io1466-010"
   },
   {
-    "name": "Nike Sportswear - Hoodie de lã cardada Dri-FIT para rapariga",
+    "name": "Nike Sportswear - Hoodie de lã cardada Dri-FIT para mulher",
     "brand": "Nike",
-    "description": "Hoodie de lã cardada Dri-FIT para rapariga Nike (infantil).",
+    "description": "Hoodie de lã cardada Dri-FIT para mulher Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3645,9 +3645,9 @@
     "slug": "nike-sb-camisola-de-skateboard-de-manga-curta-nike-if0434-100"
   },
   {
-    "name": "Nike Pro Fleece - Calças desportivas Dri-FIT Júnior (Rapariga)",
+    "name": "Nike Pro Fleece - Calças desportivas Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Calças desportivas Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Calças desportivas Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 257.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3705,9 +3705,9 @@
     "slug": "nike-stride-camada-intermedia-de-running-dri-fit-realtree-para-homem-nike-io8315-010"
   },
   {
-    "name": "Nike Sportswear - Calças de lã cardada Dri-FIT para rapariga",
+    "name": "Nike Sportswear - Calças de lã cardada Dri-FIT para mulher",
     "brand": "Nike",
-    "description": "Calças de lã cardada Dri-FIT para rapariga Nike (infantil).",
+    "description": "Calças de lã cardada Dri-FIT para mulher Nike (infantil).",
     "price": 389.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3885,9 +3885,9 @@
     "slug": "nike-miler-calcoes-de-treino-dri-fit-junior-nike-if2428-696"
   },
   {
-    "name": "Nike Sportswear - Casaco para rapariga",
+    "name": "Nike Sportswear - Casaco para mulher",
     "brand": "Nike",
-    "description": "Casaco para rapariga Nike (infantil).",
+    "description": "Casaco para mulher Nike (infantil).",
     "price": 419.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -3990,9 +3990,9 @@
     "slug": "nikeskims-matte-camisola-sem-mangas-racerback-com-gola-subida-para-mulher-nike-iu8286-662"
   },
   {
-    "name": "Nike Victory - Camisola de ténis sem mangas Dri-FIT Júnior (Rapariga)",
+    "name": "Nike Victory - Camisola de ténis sem mangas Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Camisola de ténis sem mangas Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Camisola de ténis sem mangas Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 167.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4035,9 +4035,9 @@
     "slug": "nike-stride-calcoes-de-running-2-em-1-de-18-cm-dri-fit-para-homem-nike-dm4759-010"
   },
   {
-    "name": "Nike Sportswear - Calças cargo para rapariga",
+    "name": "Nike Sportswear - Calças cargo para mulher",
     "brand": "Nike",
-    "description": "Calças cargo para rapariga Nike (infantil).",
+    "description": "Calças cargo para mulher Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4185,9 +4185,9 @@
     "slug": "nike-pacer-camisola-de-running-dri-fit-com-fecho-ate-meio-para-homem-nike-fq2494-696"
   },
   {
-    "name": "Nike Sportswear - Casaco de lã cardada Júnior (Rapariga)",
+    "name": "Nike Sportswear - Casaco de lã cardada Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Casaco de lã cardada Júnior (Rapariga) Nike (infantil).",
+    "description": "Casaco de lã cardada Júnior (Mulher) Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4335,9 +4335,9 @@
     "slug": "nike-aeroswift-tights-de-running-dri-fit-adv-para-homem-nike-fn3367-010"
   },
   {
-    "name": "Nike Sportswear - Calças de lã cardada Júnior (Rapariga)",
+    "name": "Nike Sportswear - Calças de lã cardada Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Calças de lã cardada Júnior (Rapariga) Nike (infantil).",
+    "description": "Calças de lã cardada Júnior (Mulher) Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4390,7 +4390,7 @@
     "sport": "Lifestyle",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/49125739-2761-4657-a720-3b21bec9a7d9/bucket-jordan-apex-GSww8j.png",
-    "category": "Camisetas",
+    "category": "Acessórios",
     "active": true,
     "slug": "jordan-apex-bucket-jordan-hm5753-687"
   },
@@ -4530,9 +4530,9 @@
     "slug": "nike-t-shirt-de-golfe-de-corte-folgado-para-homem-nike-ih2055-835"
   },
   {
-    "name": "Nike Sportswear - Casaco Júnior (Rapariga)",
+    "name": "Nike Sportswear - Casaco Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Casaco Júnior (Rapariga) Nike (infantil).",
+    "description": "Casaco Júnior (Mulher) Nike (infantil).",
     "price": 719.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4575,9 +4575,9 @@
     "slug": "springboks-2025-26-camisola-de-raguebi-nike-do-equipamento-de-aquecimento-para-homem-nike-ib6854-100"
   },
   {
-    "name": "Nike One - Sutiã de desporto para rapariga",
+    "name": "Nike One - Sutiã de desporto para mulher",
     "brand": "Nike",
-    "description": "Sutiã de desporto para rapariga Nike (infantil).",
+    "description": "Sutiã de desporto para mulher Nike (infantil).",
     "price": 137.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4635,9 +4635,9 @@
     "slug": "nike-colete-de-running-com-enchimento-sintetico-therma-fit-repel-para-homem-nike-im6582-491"
   },
   {
-    "name": "Nike Sportswear - Camisola sem mangas Dri-FIT Júnior (Rapariga)",
+    "name": "Nike Sportswear - Camisola sem mangas Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Camisola sem mangas Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Camisola sem mangas Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 197.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4770,9 +4770,9 @@
     "slug": "nike-camisola-com-fecho-a-1-4-therma-fit-junior-nike-hv0197-010"
   },
   {
-    "name": "Nike Sportswear - T-shirt folgada Júnior (Rapariga)",
+    "name": "Nike Sportswear - T-shirt folgada Júnior (Mulher)",
     "brand": "Nike",
-    "description": "T-shirt folgada Júnior (Rapariga) Nike (infantil).",
+    "description": "T-shirt folgada Júnior (Mulher) Nike (infantil).",
     "price": 167.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -4905,9 +4905,9 @@
     "slug": "nike-stride-eliud-kipchoge-casaco-de-running-com-protecao-uv-repel-para-homem-nike-hv2649-271"
   },
   {
-    "name": "Nike Sportswear - Calças entrançadas Júnior (Rapariga)",
+    "name": "Nike Sportswear - Calças entrançadas Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Calças entrançadas Júnior (Rapariga) Nike (infantil).",
+    "description": "Calças entrançadas Júnior (Mulher) Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -5040,9 +5040,9 @@
     "slug": "nike-retro-t-shirt-de-corrida-dri-fit-para-homem-nike-ih4414-100"
   },
   {
-    "name": "Nike Sportswear - Calças para rapariga",
+    "name": "Nike Sportswear - Calças para mulher",
     "brand": "Nike",
-    "description": "Calças para rapariga Nike (infantil).",
+    "description": "Calças para mulher Nike (infantil).",
     "price": 359.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -5065,7 +5065,7 @@
     "sport": "Futebol",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a939743e-6825-4aea-88b4-2fc7801a496f/caneleiras-de-futebol-nike-j-guard-ce-NRMKWV.png",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-j-guard-ce-caneleiras-de-futebol-nike-sp2162-100"
   },
@@ -5115,9 +5115,9 @@
     "slug": "nike-acg-cosmic-peaks-casaco-de-running-em-trilhos-storm-fit-adv-para-homem-nike-io9699-010"
   },
   {
-    "name": "Nike Pro - Calções de 8 cm Dri-FIT Júnior (Rapariga)",
+    "name": "Nike Pro - Calções de 8 cm Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Calções de 8 cm Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Calções de 8 cm Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 197.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -5130,9 +5130,9 @@
     "slug": "nike-pro-calcoes-de-8-cm-dri-fit-junior-rapariga-nike-hq9306-010"
   },
   {
-    "name": "NikeCourt Dri-FIT Victory - Saia de ténis Júnior (Rapariga)",
+    "name": "NikeCourt Dri-FIT Victory - Saia de ténis Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Saia de ténis Júnior (Rapariga) Nike (infantil).",
+    "description": "Saia de ténis Júnior (Mulher) Nike (infantil).",
     "price": 209.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -5470,7 +5470,7 @@
     "sport": "Outdoor",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/187376c0-0abb-4acc-8970-cf43af397e2c/bucket-nike-acg-apex-HbKmEL1W.png",
-    "category": "Camisetas",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-acg-apex-bucket-nike-im6152-368"
   },
@@ -5835,9 +5835,9 @@
     "slug": "nike-acg-solar-chase-camisola-de-running-em-trilhos-dri-fit-adv-para-homem-nike-io9677-495"
   },
   {
-    "name": "Nike Swoosh - Sutiã de desporto para rapariga",
+    "name": "Nike Swoosh - Sutiã de desporto para mulher",
     "brand": "Nike",
-    "description": "Sutiã de desporto para rapariga Nike (infantil).",
+    "description": "Sutiã de desporto para mulher Nike (infantil).",
     "price": 167.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -6025,7 +6025,7 @@
     "sport": "Futebol",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4a5165d1-db12-4f04-8cc8-e8a83050ca79/caneleiras-de-futebol-nike-mercurial-lite-kylian-mbappe-x29BnuYI.png",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-mercurial-lite-kylian-mbappe-caneleiras-de-futebol-nike-io9401-271"
   },
@@ -6265,7 +6265,7 @@
     "sport": "Futebol",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bc9b740e-fce3-4107-a72a-076aeb6f01d7/caneleiras-de-futebol-nike-charge-para-crianca-MHBodP3R.png",
-    "category": "Equipamentos",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-charge-caneleiras-de-futebol-para-crianca-nike-dx4610-100"
   },
@@ -6555,9 +6555,9 @@
     "slug": "nike-acg-canwell-glacier-casaco-resistente-ao-vento-therma-fit-adv-para-homem-nike-fv8653-010"
   },
   {
-    "name": "Nike Pro - Leggings Dri-FIT Júnior (Rapariga)",
+    "name": "Nike Pro - Leggings Dri-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Leggings Dri-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Leggings Dri-FIT Júnior (Mulher) Nike (infantil).",
     "price": 257.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -6675,9 +6675,9 @@
     "slug": "nike-acg-lava-loft-casaco-therma-fit-para-homem-nike-io9132-010"
   },
   {
-    "name": "Nike MAVN - Leggings de cintura subida Dri-FIT para rapariga",
+    "name": "Nike MAVN - Leggings de cintura subida Dri-FIT para mulher",
     "brand": "Nike",
-    "description": "Leggings de cintura subida Dri-FIT para rapariga Nike (infantil).",
+    "description": "Leggings de cintura subida Dri-FIT para mulher Nike (infantil).",
     "price": 419.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -7230,9 +7230,9 @@
     "slug": "nike-acg-hoodie-pullover-junior-nike-if1710-010"
   },
   {
-    "name": "Nike Pro - Camisola de manga comprida com fecho até meio Therma-FIT Júnior (Rapariga)",
+    "name": "Nike Pro - Camisola de manga comprida com fecho até meio Therma-FIT Júnior (Mulher)",
     "brand": "Nike",
-    "description": "Camisola de manga comprida com fecho até meio Therma-FIT Júnior (Rapariga) Nike (infantil).",
+    "description": "Camisola de manga comprida com fecho até meio Therma-FIT Júnior (Mulher) Nike (infantil).",
     "price": 299.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -7545,9 +7545,9 @@
     "slug": "nike-acg-dawn-range-calcas-de-running-em-trilhos-dri-fit-para-homem-nike-io9665-097"
   },
   {
-    "name": "Nike Pro - Leggings Dri-FIT para rapariga",
+    "name": "Nike Pro - Leggings Dri-FIT para mulher",
     "brand": "Nike",
-    "description": "Leggings Dri-FIT para rapariga Nike (infantil).",
+    "description": "Leggings Dri-FIT para mulher Nike (infantil).",
     "price": 257.94,
     "compareAt": null,
     "size": "P, M, G",
@@ -7855,7 +7855,7 @@
     "sport": "Outdoor",
     "stock": 60,
     "imageUrl": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0242a08b-b173-4ae6-986f-40fa775e64e4/bucket-nike-acg-apex-5t9H9hyw.png",
-    "category": "Camisetas",
+    "category": "Acessórios",
     "active": true,
     "slug": "nike-acg-apex-bucket-nike-ih8919-010"
   },
@@ -8175,9 +8175,9 @@
     "slug": "nike-trailwind-casaco-de-running-impermeavel-storm-fit-adv-para-homem-nike-hv2146-060"
   },
   {
-    "name": "Nike One - Calções 2 em 1 de 8 cm Dri-FIT para rapariga",
+    "name": "Nike One - Calções 2 em 1 de 8 cm Dri-FIT para mulher",
     "brand": "Nike",
-    "description": "Calções 2 em 1 de 8 cm Dri-FIT para rapariga Nike (infantil).",
+    "description": "Calções 2 em 1 de 8 cm Dri-FIT para mulher Nike (infantil).",
     "price": 209.94,
     "compareAt": null,
     "size": "P, M, G",

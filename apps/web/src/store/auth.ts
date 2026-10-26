@@ -25,6 +25,10 @@ export const useAuthStore = create<AuthState>()(
       setAuth: (data) => set(data),
       logout: () => set({ user: null, accessToken: null, refreshToken: null }),
     }),
-    { name: "sportarena-auth" }
+    {
+      name: "sportarena-auth",
+      // Garante hidratação explícita no cliente (evita race com hasHydrated)
+      skipHydration: false,
+    }
   )
 );

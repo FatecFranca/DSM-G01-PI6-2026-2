@@ -15,7 +15,7 @@ function inCategories(...slugs: string[]): Prisma.ProductWhereInput {
 
 // Postgres "insensitive" ignora maiúsculas mas não acentos: variantes com e sem acento precisam estar listadas.
 const TOP_TERMS = ["camiseta", "camisa", "camisola", "t-shirt", "regata", "polo", "jersey"];
-const KIDS_TERMS = ["infantil", "júnior", "junior", "criança", "crianca", "rapariga", "rapaz", "kids", "bebê", "menino", "menina"];
+const KIDS_TERMS = ["infantil", "júnior", "junior", "criança", "crianca", "rapaz", "kids", "bebê", "menino", "menina"];
 const PANTS_TERMS = ["calça", "calca", "legging", "jogger", "tights"];
 const WARM_TERMS = ["moletom", "moleton", "moletinho", "agasalho", "blusa", "sweat", "hood", "capuz", "casaco", "jaqueta", "corta-vento", "windrunner", "suéter", "sueter", "fleece", "colete", "fato de treino", "camada intermédia"];
 const SHORTS_TERMS = ["shorts", "short ", "bermuda", "calções", "calcoes", "saia", "macacão"];

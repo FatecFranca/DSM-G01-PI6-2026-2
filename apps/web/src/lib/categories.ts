@@ -5,7 +5,11 @@ export type CategoryMenuItem = {
 };
 
 /** Os slugs precisam existir em PRODUCT_COLLECTIONS na API (apps/api/src/products/collections.ts). */
+/** Coleção especial de recomendações (não passa pela API de catálogo). */
+export const RECOMMENDED_COLLECTION = "recomendados-para-mim";
+
 export const CATEGORY_MENU: CategoryMenuItem[] = [
+  { slug: RECOMMENDED_COLLECTION, label: "Recomendados para mim" },
   {
     slug: "camisetas",
     label: "Camisetas",
@@ -40,4 +44,8 @@ export function findCollectionLabel(slug: string): string | null {
     if (child) return `${item.label} · ${child.label}`;
   }
   return null;
+}
+
+export function isRecommendedCollection(slug: string | null | undefined) {
+  return slug === RECOMMENDED_COLLECTION;
 }

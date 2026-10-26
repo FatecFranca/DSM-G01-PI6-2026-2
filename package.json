@@ -24,6 +24,9 @@
   },
   "packageManager": "npm@11.12.1",
   "dependencies": {
-    "@google-cloud/pubsub": "^6.3.0"
+    "@google-cloud/pubsub": "^6.3.1",
+    "@opentelemetry/api": "^1.9.1",
+    "fast-uri": "^4.2.3",
+    "next": "^15.3.4"
   }
 }

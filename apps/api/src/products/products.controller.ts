@@ -52,10 +52,23 @@ export class ProductsController {
   @UseGuards(OptionalJwtAuthGuard)
   @ApiBearerAuth()
   @ApiOperation({
-    summary: "Sugestões: se gostou de X, pode gostar de Y (carrinho/compras ou destaque)",
+    summary:
+      "Quem comprou isso também gostou — ProductRelation (carrinho, productIds ou última compra)",
   })
-  recommendations(@CurrentUser() user?: JwtPayload) {
-    return this.productsService.recommendations(user?.sub);
+  @ApiQuery({
+    name: "productIds",
+    required: false,
+    description: "IDs do carrinho separados por vírgula (prioridade sobre histórico)",
+  })
+  recommendations(
+    @CurrentUser() user?: JwtPayload,
+    @Query("productIds") productIds?: string
+  ) {
+    const ids = productIds
+      ?.split(",")
+      .map((id) => id.trim())
+      .filter(Boolean);
+    return this.productsService.recommendations(user?.sub, ids);
   }
 
   @Get(":id")

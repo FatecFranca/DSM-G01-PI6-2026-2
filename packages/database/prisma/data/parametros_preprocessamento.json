@@ -1,0 +1,33 @@
+{
+  "atributos_numericos": [
+    "price",
+    "compareAt",
+    "stock",
+    "desconto_pct"
+  ],
+  "mu": [
+    447.8402747252747,
+    1.886080586080586,
+    37.99633699633699,
+    0.060831575879631734
+  ],
+  "sigma": [
+    298.4844711509679,
+    31.147819639257772,
+    18.62483262280522,
+    1.0250484281434151
+  ],
+  "alvo": "collection",
+  "colecoes": [
+    "artigos-esportivos",
+    "calcas",
+    "camisetas",
+    "moletons",
+    "outros",
+    "shorts",
+    "tenis",
+    "tops-sutias"
+  ],
+  "total_produtos": 546,
+  "fonte": "C:/SportArena/packages/database/prisma/data/products.json"
+}

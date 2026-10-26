@@ -54,10 +54,31 @@ model Product {
   category   Category?   @relation(fields: [categoryId], references: [id], onDelete: SetNull)
   cartItems  CartItem[]
   orderItems OrderItem[]
+  relatedFrom ProductRelation[] @relation("RelationSource")
+  relatedTo   ProductRelation[] @relation("RelationTarget")
 
   @@index([name])
   @@index([sport])
   @@index([categoryId])
+}
+
+/// Co-compra: "quem compra X também compra Y" (alimenta recomendações / carrinho)
+model ProductRelation {
+  id              String           @id @default(uuid())
+  sourceProductId String
+  targetProductId String
+  relationType    ProductRelationType @default(ALSO_BOUGHT)
+  /// Quantidade de coocorrências (pedidos ou histórico do usuário)
+  score           Float            @default(1)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  sourceProduct Product @relation("RelationSource", fields: [sourceProductId], references: [id], onDelete: Cascade)
+  targetProduct Product @relation("RelationTarget", fields: [targetProductId], references: [id], onDelete: Cascade)
+
+  @@unique([sourceProductId, targetProductId, relationType])
+  @@index([sourceProductId, score])
+  @@index([targetProductId])
 }
 
 model Cart {
@@ -124,4 +145,10 @@ enum OrderStatus {
   SHIPPED
   DELIVERED
   CANCELLED
+}
+
+enum ProductRelationType {
+  ALSO_BOUGHT
+  BOUGHT_TOGETHER
+  ALSO_VIEWED
 }

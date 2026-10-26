@@ -4,20 +4,24 @@ import { useState } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { ArrowLeft, ShoppingCart } from "lucide-react";
+import { ArrowLeft, Check, ShoppingCart } from "lucide-react";
 import { formatCurrency } from "@sportarena/utils";
 import type { ProductDto } from "@sportarena/types";
 import { Header } from "@/components/layout/header";
 import { Button } from "@/components/ui/button";
 import { apiFetch } from "@/lib/api";
 import { useAuthStore } from "@/store/auth";
+import { useAuthReady } from "@/hooks/use-auth-ready";
+import { useCartProductIds } from "@/hooks/use-cart-ids";
 import { cn } from "@/lib/utils";
 
 export default function ProductDetailPage() {
   const params = useParams<{ id: string }>();
   const router = useRouter();
+  const authReady = useAuthReady();
   const accessToken = useAuthStore((s) => s.accessToken);
   const queryClient = useQueryClient();
+  const { isInCart } = useCartProductIds();
 
   const { data: product, isLoading, error } = useQuery({
     queryKey: ["product", params.id],
@@ -32,6 +36,7 @@ export default function ProductDetailPage() {
   const selectedSize = size || product?.availableSizes[0] || product?.size || "";
   const selectedColor =
     color || product?.availableColors[0] || product?.color || "";
+  const inCart = product ? isInCart(product.id) : false;
 
   const addMutation = useMutation({
     mutationFn: () =>
@@ -47,17 +52,21 @@ export default function ProductDetailPage() {
       }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["cart"] });
-      router.push("/cart");
     },
   });
 
   function handleAdd() {
+    if (!authReady) return;
     if (!accessToken) {
       router.push("/login");
       return;
     }
-    if (product?.availableSizes.length && !selectedSize) return;
-    if (product?.availableColors.length && !selectedColor) return;
+    if (inCart) {
+      router.push("/cart");
+      return;
+    }
+    if ((product?.availableSizes?.length ?? 0) > 0 && !selectedSize) return;
+    if ((product?.availableColors?.length ?? 0) > 0 && !selectedColor) return;
     addMutation.mutate();
   }
 
@@ -198,16 +207,33 @@ export default function ProductDetailPage() {
 
               <Button
                 size="lg"
-                className="w-full sm:w-auto"
+                variant={inCart ? "secondary" : "primary"}
+                className={cn(
+                  "w-full sm:w-auto transition-all duration-200",
+                  inCart &&
+                    "border-brand-600 bg-brand-50 text-brand-800 hover:bg-brand-100"
+                )}
                 disabled={product.stock < 1 || addMutation.isPending}
                 onClick={handleAdd}
               >
-                <ShoppingCart className="w-4 h-4 mr-2" />
-                {product.stock < 1
-                  ? "Esgotado"
-                  : addMutation.isPending
-                    ? "Adicionando..."
-                    : "Adicionar ao carrinho"}
+                {product.stock < 1 ? (
+                  "Esgotado"
+                ) : addMutation.isPending ? (
+                  <>
+                    <ShoppingCart className="w-4 h-4 mr-2 animate-pulse" />
+                    Adicionando...
+                  </>
+                ) : inCart ? (
+                  <>
+                    <Check className="w-4 h-4 mr-2 text-brand-700" strokeWidth={3} />
+                    No carrinho — ver itens
+                  </>
+                ) : (
+                  <>
+                    <ShoppingCart className="w-4 h-4 mr-2" />
+                    Adicionar ao carrinho
+                  </>
+                )}
               </Button>
             </div>
           </div>

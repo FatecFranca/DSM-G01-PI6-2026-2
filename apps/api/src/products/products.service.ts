@@ -173,73 +173,142 @@ export class ProductsService {
   }
 
   /**
-   * Sugestões só com base em compras feitas.
-   * Sem login ou sem pedidos → lista vazia (nada na home).
+   * "Quem comprou isso também gostou" via ProductRelation (modelo de associação).
+   * Seeds: productIds (carrinho) → itens do carrinho → última compra → vazio.
    */
-  async recommendations(userId?: string) {
-    if (!userId) {
+  async recommendations(userId?: string, productIds?: string[]) {
+    const seeds = await this.resolveRecommendationSeeds(userId, productIds);
+
+    if (!seeds.length) {
       return {
-        algorithm: "related-by-purchase",
+        algorithm: "also-bought-association",
         basedOn: null,
-        message: "Faça uma compra para receber sugestões.",
+        basedOnProducts: [],
+        message: userId
+          ? "Adicione itens ao carrinho ou faça uma compra para receber sugestões."
+          : "Faça login e compre para receber sugestões.",
         products: [],
       };
     }
 
-    const orderItem = await this.prisma.orderItem.findFirst({
-      where: { order: { userId } },
-      include: { product: { include: { category: true } } },
-      orderBy: { id: "desc" },
-    });
-
-    const basedOn = orderItem?.product?.active ? orderItem.product : null;
-
-    if (!basedOn) {
-      return {
-        algorithm: "related-by-purchase",
-        basedOn: null,
-        message: "Nenhuma compra encontrada para sugerir produtos.",
-        products: [],
-      };
-    }
-
-    const related = await this.prisma.product.findMany({
+    const exclude = new Set(seeds.map((p) => p.id));
+    const relations = await this.prisma.productRelation.findMany({
       where: {
-        active: true,
-        id: { not: basedOn.id },
-        OR: [
-          basedOn.sport
-            ? { sport: { equals: basedOn.sport, mode: "insensitive" } }
-            : undefined,
-          basedOn.categoryId ? { categoryId: basedOn.categoryId } : undefined,
-        ].filter(Boolean) as Prisma.ProductWhereInput[],
+        relationType: "ALSO_BOUGHT",
+        sourceProductId: { in: [...exclude] },
+        targetProductId: { notIn: [...exclude] },
+        targetProduct: { active: true },
       },
-      include: { category: true },
-      take: 6,
-      orderBy: { createdAt: "desc" },
+      orderBy: { score: "desc" },
+      take: 40,
+      include: {
+        targetProduct: { include: { category: true } },
+        sourceProduct: { select: { id: true, name: true } },
+      },
     });
 
-    let products = related;
-    if (products.length < 3) {
+    const bestByTarget = new Map<
+      string,
+      (typeof relations)[number]
+    >();
+    for (const rel of relations) {
+      const prev = bestByTarget.get(rel.targetProductId);
+      if (!prev || prev.score < rel.score) {
+        bestByTarget.set(rel.targetProductId, rel);
+      }
+    }
+
+    let ranked = [...bestByTarget.values()]
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 6);
+
+    // Fallback: mesmo esporte/categoria se a tabela ainda estiver vazia
+    if (ranked.length < 3) {
+      const basedOn = seeds[0];
       const extras = await this.prisma.product.findMany({
         where: {
           active: true,
-          id: {
-            notIn: [basedOn.id, ...products.map((p) => p.id)],
-          },
+          id: { notIn: [...exclude, ...ranked.map((r) => r.targetProductId)] },
+          OR: [
+            basedOn.sport
+              ? { sport: { equals: basedOn.sport, mode: "insensitive" } }
+              : undefined,
+            basedOn.categoryId
+              ? { categoryId: basedOn.categoryId }
+              : undefined,
+          ].filter(Boolean) as Prisma.ProductWhereInput[],
         },
         include: { category: true },
-        take: 6 - products.length,
+        take: 6 - ranked.length,
         orderBy: { createdAt: "desc" },
       });
-      products = [...products, ...extras];
+      return {
+        algorithm: "also-bought-association+fallback",
+        basedOn: mapProduct(basedOn),
+        basedOnProducts: seeds.map(mapProduct),
+        message: "Produtos que você também pode gostar",
+        products: [
+          ...ranked.map((r) => mapProduct(r.targetProduct)),
+          ...extras.map(mapProduct),
+        ],
+      };
     }
 
+    const primary = seeds[0];
+
     return {
-      algorithm: "related-by-purchase",
-      basedOn: mapProduct(basedOn),
-      message: `Se você gostou do produto ${basedOn.name}, pode gostar destes`,
-      products: products.map(mapProduct),
+      algorithm: "also-bought-association",
+      basedOn: mapProduct(primary),
+      basedOnProducts: seeds.map(mapProduct),
+      message: "Produtos que você também pode gostar",
+      products: ranked.map((r) => mapProduct(r.targetProduct)),
     };
+  }
+
+  private async resolveRecommendationSeeds(
+    userId?: string,
+    productIds?: string[]
+  ) {
+    if (productIds?.length) {
+      return this.prisma.product.findMany({
+        where: { id: { in: productIds }, active: true },
+        include: { category: true },
+        take: 12,
+      });
+    }
+
+    if (!userId) return [];
+
+    const cart = await this.prisma.cart.findUnique({
+      where: { userId },
+      include: {
+        items: {
+          include: { product: { include: { category: true } } },
+          take: 12,
+        },
+      },
+    });
+    const fromCart = (cart?.items ?? [])
+      .map((i) => i.product)
+      .filter((p) => p?.active);
+    if (fromCart.length) return fromCart;
+
+    const lastOrder = await this.prisma.order.findFirst({
+      where: {
+        userId,
+        status: { in: ["PAID", "SHIPPED", "DELIVERED"] },
+      },
+      orderBy: { createdAt: "desc" },
+      include: {
+        items: {
+          include: { product: { include: { category: true } } },
+          take: 12,
+        },
+      },
+    });
+
+    return (lastOrder?.items ?? [])
+      .map((i) => i.product)
+      .filter((p) => p?.active);
   }
 }
