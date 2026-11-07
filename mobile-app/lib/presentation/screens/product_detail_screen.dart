@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../core/constants/app_styles.dart';
 import '../../core/network/api_client.dart';
 
 class ProductDetailScreen extends StatefulWidget {
@@ -45,7 +46,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
       }
     }
 
-    // Se houver tamanhos disponíveis, seleciona o primeiro por padrão
     if (_availableSizes.isNotEmpty) {
       _selectedSize = _availableSizes.first;
     }
@@ -64,7 +64,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
       }
     }
 
-    // Se houver cores disponíveis, seleciona a primeira por padrão
     if (_availableColors.isNotEmpty) {
       _selectedColor = _availableColors.first;
     }
@@ -100,7 +99,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text('Produto adicionado ao carrinho com sucesso!'),
-            backgroundColor: Color(0xFF10B981),
+            backgroundColor: AppColors.primary,
           ),
         );
         Navigator.pop(context);
@@ -136,7 +135,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
     final String description =
         prod['description']?.toString() ?? 'Sem descrição disponível.';
 
-    // Leitura flexível da URL da imagem
     final String? imageUrl =
         prod['imageUrl']?.toString() ?? prod['image']?.toString();
 
@@ -147,15 +145,12 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
           name,
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: const Color(0xFF1F2937),
-        foregroundColor: Colors.white,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Container da Imagem do Produto
             Container(
               height: 300,
               width: double.infinity,
@@ -170,51 +165,39 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                         imageUrl,
                         fit: BoxFit.cover,
                         errorBuilder: (context, error, stackTrace) => const Center(
-                          child: Icon(Icons.shopping_bag, size: 80, color: Colors.grey),
+                          child: Icon(Icons.shopping_bag, size: 80, color: AppColors.textMuted),
                         ),
                       ),
                     )
                   : const Center(
-                      child: Icon(Icons.shopping_bag, size: 80, color: Colors.grey),
+                      child: Icon(Icons.shopping_bag, size: 80, color: AppColors.textMuted),
                     ),
             ),
             const SizedBox(height: 16),
-
-            // Marca e Esporte
             if (brand.isNotEmpty || sport.isNotEmpty)
               Text(
                 [brand, sport].where((e) => e.isNotEmpty).join(' • ').toUpperCase(),
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
-                  color: Colors.grey.shade600,
+                  color: AppColors.textMuted,
                 ),
               ),
             const SizedBox(height: 4),
-
-            // Nome do Produto
             Text(
               name,
               style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF1F2937),
+                color: AppColors.textMain,
               ),
             ),
             const SizedBox(height: 8),
-
-            // Preço
             Text(
               'R\$ ${price.toStringAsFixed(2)}',
-              style: const TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF10B981),
-              ),
+              style: AppStyles.priceStyle.copyWith(fontSize: 22),
             ),
             const SizedBox(height: 16),
-
-            // Seletor de Tamanhos (se disponível)
             if (_availableSizes.isNotEmpty) ...[
               const Text(
                 'Tamanho',
@@ -229,9 +212,9 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   return ChoiceChip(
                     label: Text(size),
                     selected: isSelected,
-                    selectedColor: const Color(0xFF10B981),
+                    selectedColor: AppColors.primary,
                     labelStyle: TextStyle(
-                      color: isSelected ? Colors.white : Colors.black87,
+                      color: isSelected ? Colors.white : AppColors.textMain,
                       fontWeight: FontWeight.bold,
                     ),
                     onSelected: (selected) {
@@ -244,8 +227,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               ),
               const SizedBox(height: 16),
             ],
-
-            // Seletor de Cores (se disponível)
             if (_availableColors.isNotEmpty) ...[
               const Text(
                 'Cor',
@@ -260,9 +241,9 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   return ChoiceChip(
                     label: Text(color),
                     selected: isSelected,
-                    selectedColor: const Color(0xFF10B981),
+                    selectedColor: AppColors.primary,
                     labelStyle: TextStyle(
-                      color: isSelected ? Colors.white : Colors.black87,
+                      color: isSelected ? Colors.white : AppColors.textMain,
                       fontWeight: FontWeight.bold,
                     ),
                     onSelected: (selected) {
@@ -275,8 +256,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               ),
               const SizedBox(height: 16),
             ],
-
-            // Descrição
             const Text(
               'Descrição',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -287,16 +266,12 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               style: TextStyle(fontSize: 14, color: Colors.grey.shade700, height: 1.4),
             ),
             const SizedBox(height: 24),
-
-            // Botão Adicionar ao Carrinho
             SizedBox(
               width: double.infinity,
               height: 50,
               child: ElevatedButton(
                 onPressed: _isAdding ? null : _addToCart,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF10B981),
-                  foregroundColor: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),

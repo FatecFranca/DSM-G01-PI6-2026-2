@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../core/constants/app_styles.dart';
 import '../../core/network/api_client.dart';
 import 'home_screen.dart';
 
@@ -37,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
       final response = await _apiClient.dio.post(endpoint, data: body);
 
       if (_isLogin) {
-        final token = response.data['accessToken'] ?? response.data['token'];
+        final token = response.data['access_token'] ?? response.data['accessToken'] ?? response.data['token'];
         if (token != null) {
           ApiClient.authToken = token;
         }
@@ -81,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Container(
                         padding: const EdgeInsets.all(12),
                         decoration: BoxDecoration(
-                          color: const Color(0xFF10B981),
+                          color: AppColors.primary,
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: const Text(
@@ -102,12 +103,12 @@ class _LoginScreenState extends State<LoginScreen> {
                             style: TextStyle(
                               fontSize: 26,
                               fontWeight: FontWeight.bold,
-                              color: Color(0xFF1F2937),
+                              color: AppColors.textMain,
                             ),
                           ),
                           Text(
                             'artigos esportivos',
-                            style: TextStyle(fontSize: 12, color: Colors.grey),
+                            style: TextStyle(fontSize: 12, color: AppColors.textMuted),
                           ),
                         ],
                       ),
@@ -116,7 +117,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(height: 40),
                   Text(
                     _isLogin ? 'Faça login para continuar' : 'Crie sua conta para começar',
-                    style: const TextStyle(color: Colors.grey, fontSize: 14),
+                    style: const TextStyle(color: AppColors.textMuted, fontSize: 14),
                   ),
                   const SizedBox(height: 24),
                   if (!_isLogin) ...[
@@ -154,13 +155,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: double.infinity,
                     height: 50,
                     child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF10B981),
-                        foregroundColor: Colors.white,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                      ),
                       onPressed: _isLoading ? null : _submit,
                       child: _isLoading
                           ? const SizedBox(
@@ -179,7 +173,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onPressed: () => setState(() => _isLogin = !_isLogin),
                     child: Text(
                       _isLogin ? 'Não tem uma conta? Cadastre-se' : 'Já tem uma conta? Faça login',
-                      style: const TextStyle(color: Color(0xFF10B981), fontWeight: FontWeight.w600),
+                      style: const TextStyle(color: AppColors.primary, fontWeight: FontWeight.w600),
                     ),
                   ),
                 ],

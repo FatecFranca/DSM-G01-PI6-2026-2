@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import '../../core/constants/app_styles.dart';
 import '../../core/network/api_client.dart';
 import 'cart_screen.dart';
 import 'login_screen.dart';
 import 'product_detail_screen.dart';
-import 'my_orders_screen.dart'; // Importe a tela de histórico de pedidos
+import 'my_orders_screen.dart';
+import 'for_you_screen.dart';
 
 // Modelo de Produto interno
 class Product {
@@ -155,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
           }
         }
         calculatedPages = (productsRes['totalPages'] as num?)?.toInt() ??
-                      (productsRes['pageCount'] as num?)?.toInt() ?? 1;
+                    (productsRes['pageCount'] as num?)?.toInt() ?? 1;
       } else if (productsRes is List) {
         for (var item in productsRes) {
           if (item is Map<String, dynamic>) {
@@ -214,16 +216,26 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF9FAFB),
       appBar: AppBar(
-        title: const Text(
-          'SportArena',
-          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-        ),
-        backgroundColor: const Color(0xFF1F2937),
-        foregroundColor: Colors.white,
+        title: const Text('SportArena'),
         actions: [
-          // Botão "Você comprou" na barra superior
+          TextButton.icon(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ForYouScreen()),
+              );
+            },
+            icon: const Icon(Icons.auto_awesome, color: AppColors.primary, size: 18),
+            label: const Text(
+              'Para Você',
+              style: TextStyle(
+                color: AppColors.primary,
+                fontWeight: FontWeight.bold,
+                fontSize: 12,
+              ),
+            ),
+          ),
           TextButton.icon(
             onPressed: () {
               Navigator.push(
@@ -231,11 +243,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 MaterialPageRoute(builder: (context) => const MyOrdersScreen()),
               );
             },
-            icon: const Icon(Icons.inventory_2_outlined, color: Color(0xFF10B981), size: 18),
+            icon: const Icon(Icons.inventory_2_outlined, color: AppColors.primary, size: 18),
             label: const Text(
               'Você comprou',
               style: TextStyle(
-                color: Color(0xFF10B981),
+                color: AppColors.primary,
                 fontWeight: FontWeight.bold,
                 fontSize: 12,
               ),
@@ -287,7 +299,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               padding: const EdgeInsets.fromLTRB(16, 40, 16, 16),
               width: double.infinity,
-              color: const Color(0xFF10B981),
+              color: AppColors.primary,
               child: const Text(
                 'CATEGORIAS',
                 style: TextStyle(
@@ -298,7 +310,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.grid_view, color: Color(0xFF10B981)),
+              leading: const Icon(Icons.grid_view, color: AppColors.primary),
               title: const Text('Ver todo o catálogo', style: TextStyle(fontWeight: FontWeight.bold)),
               selected: _selectedCollection == null,
               onTap: () => _selectCategory(null, 'Ver todo o catálogo'),
@@ -352,7 +364,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       label: Text(_selectedCategoryLabel),
                       deleteIcon: const Icon(Icons.close, size: 16),
                       onDeleted: _clearCategoryFilter,
-                      backgroundColor: const Color(0xFFE5E7EB),
+                      backgroundColor: AppColors.borderLight,
                     ),
                   ),
                 TextField(
@@ -363,14 +375,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                   decoration: InputDecoration(
                     hintText: 'Buscar por nome, marca ou esporte...',
-                    prefixIcon: const Icon(Icons.search, color: Colors.grey),
+                    prefixIcon: const Icon(Icons.search, color: AppColors.textMuted),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
-                      borderSide: BorderSide(color: Colors.grey.shade300),
+                      borderSide: BorderSide(color: AppColors.borderLight),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
-                      borderSide: BorderSide(color: Colors.grey.shade300),
+                      borderSide: BorderSide(color: AppColors.borderLight),
                     ),
                     contentPadding: const EdgeInsets.symmetric(horizontal: 16),
                   ),
@@ -380,16 +392,16 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Expanded(
             child: _isLoading
-                ? const Center(child: CircularProgressIndicator(color: Color(0xFF10B981)))
+                ? const Center(child: CircularProgressIndicator(color: AppColors.primary))
                 : _products.isEmpty
                     ? const Center(
                         child: Text(
                           'Nenhum produto encontrado.',
-                          style: TextStyle(color: Colors.grey, fontSize: 16),
+                          style: TextStyle(color: AppColors.textMuted, fontSize: 16),
                         ),
                       )
                     : GridView.builder(
-                        padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+                        padding: const EdgeInsets.all(16),
                         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           childAspectRatio: 0.72,
@@ -410,11 +422,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ).then((_) => _fetchData());
                             },
                             child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(12),
-                                border: Border.all(color: Colors.grey.shade200),
-                              ),
+                              decoration: AppStyles.cardDecoration,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -436,11 +444,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 product.imageUrl!,
                                                 fit: BoxFit.cover,
                                                 errorBuilder: (context, error, stackTrace) =>
-                                                    const Center(child: Icon(Icons.shopping_bag, size: 40, color: Colors.grey)),
+                                                    const Center(child: Icon(Icons.shopping_bag, size: 40, color: AppColors.textMuted)),
                                               ),
                                             )
                                           : const Center(
-                                              child: Icon(Icons.shopping_bag, size: 40, color: Colors.grey),
+                                              child: Icon(Icons.shopping_bag, size: 40, color: AppColors.textMuted),
                                             ),
                                     ),
                                   ),
@@ -451,26 +459,19 @@ class _HomeScreenState extends State<HomeScreen> {
                                       children: [
                                         Text(
                                           product.brand ?? '',
-                                          style: const TextStyle(fontSize: 10, color: Colors.grey),
+                                          style: const TextStyle(fontSize: 10, color: AppColors.textMuted),
                                         ),
                                         const SizedBox(height: 2),
                                         Text(
                                           product.name,
                                           maxLines: 1,
                                           overflow: TextOverflow.ellipsis,
-                                          style: const TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 14,
-                                          ),
+                                          style: AppStyles.titleStyle,
                                         ),
                                         const SizedBox(height: 6),
                                         Text(
                                           'R\$ ${product.price.toStringAsFixed(2)}',
-                                          style: const TextStyle(
-                                            color: Color(0xFF10B981),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 14,
-                                          ),
+                                          style: AppStyles.priceStyle,
                                         ),
                                       ],
                                     ),
@@ -508,8 +509,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     icon: const Icon(Icons.arrow_back, size: 16),
                     label: const Text('Anterior'),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF10B981),
-                      foregroundColor: Colors.white,
                       disabledBackgroundColor: Colors.grey.shade300,
                     ),
                   ),
@@ -527,8 +526,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     icon: const Icon(Icons.arrow_forward, size: 16),
                     label: const Text('Próxima'),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF10B981),
-                      foregroundColor: Colors.white,
                       disabledBackgroundColor: Colors.grey.shade300,
                     ),
                   ),

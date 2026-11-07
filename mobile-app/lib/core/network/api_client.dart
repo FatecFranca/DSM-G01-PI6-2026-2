@@ -54,4 +54,14 @@ class ApiClient {
     final response = await dio.get('/cart');
     return response.data;
   }
-}
+
+  Future<dynamic> getRecommendations() async {
+  try {
+    final response = await dio.get('/products/recommendations');
+    return response.data; // Retorna o JSON completo (objeto com a chave 'products')
+  } catch (e) {
+    print('Erro ao buscar recomendações: $e');
+    return null;
+  }
+ }
+} // <--- Fim da classe ApiClient
